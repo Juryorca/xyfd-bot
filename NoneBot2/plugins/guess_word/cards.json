@@ -1173,7 +1173,7 @@
     "type_zh": "符号",
     "rarity": "uncommon",
     "rarity_zh": "非凡",
-    "text": "在被移除时给予1枚重置代币。",
+    "text": "在被移除时给予1枚重掷代币。",
     "value": 2
   },
   {
@@ -1240,7 +1240,7 @@
     "type_zh": "符号",
     "rarity": "uncommon",
     "rarity_zh": "非凡",
-    "text": "消除自身。被消除后给予1枚重置代币。"
+    "text": "消除自身。被消除后给予1枚重掷代币。"
   },
   {
     "id": "robin_hood",
@@ -1615,24 +1615,6 @@
     "text": "每当在旋转后获得的金币是13的倍数时，给予9枚金币。猫咪能给予2倍金币。"
   },
   {
-    "id": "black_pepper",
-    "name": "黑辣椒",
-    "type": "item",
-    "type_zh": "物品",
-    "rarity": "common",
-    "rarity_zh": "普通",
-    "text": "每消除一个符号，给予1枚金币。"
-  },
-  {
-    "id": "blue_pepper",
-    "name": "蓝辣椒",
-    "type": "item",
-    "type_zh": "物品",
-    "rarity": "common",
-    "rarity_zh": "普通",
-    "text": "如果有至少3个空，则给予3枚金币。"
-  },
-  {
     "id": "blue_suits",
     "name": "黑色牌",
     "type": "item",
@@ -1658,15 +1640,6 @@
     "rarity": "rare",
     "rarity_zh": "稀有",
     "text": "每次旋转给予3个金币。"
-  },
-  {
-    "id": "brown_pepper",
-    "name": "棕辣椒",
-    "type": "item",
-    "type_zh": "物品",
-    "rarity": "common",
-    "rarity_zh": "普通",
-    "text": "每添加一个符号，给予1枚金币。"
   },
   {
     "id": "capsule_machine",
@@ -1802,15 +1775,6 @@
     "rarity": "uncommon",
     "rarity_zh": "非凡",
     "text": "每有一个其它忍者，忍者给予额外2枚金币。"
-  },
-  {
-    "id": "cyan_pepper",
-    "name": "青辣椒",
-    "type": "item",
-    "type_zh": "物品",
-    "rarity": "common",
-    "rarity_zh": "普通",
-    "text": "如果没有3个或以上的相同符号，则给予3枚金币。该效果忽略空。"
   },
   {
     "id": "dark_humor",
@@ -1957,24 +1921,6 @@
     "text": "大骨灰瓮、坟墓和骨灰瓮有66%的几率被消除。"
   },
   {
-    "id": "gray_pepper",
-    "name": "灰辣椒",
-    "type": "item",
-    "type_zh": "物品",
-    "rarity": "common",
-    "rarity_zh": "普通",
-    "text": "每次花费移除代币时，给予6枚金币。"
-  },
-  {
-    "id": "green_pepper",
-    "name": "绿辣椒",
-    "type": "item",
-    "type_zh": "物品",
-    "rarity": "common",
-    "rarity_zh": "普通",
-    "text": "如果有至少3个相同且非空的符号，则给予3枚金币。"
-  },
-  {
     "id": "guillotine",
     "name": "断头台",
     "type": "item",
@@ -2045,15 +1991,6 @@
     "rarity": "uncommon",
     "rarity_zh": "非凡",
     "text": "空给予额外1枚金币。"
-  },
-  {
-    "id": "lime_pepper",
-    "name": "青绿辣椒",
-    "type": "item",
-    "type_zh": "物品",
-    "rarity": "common",
-    "rarity_zh": "普通",
-    "text": "每次花费重置代币时，给予6枚金币。"
   },
   {
     "id": "lint_roller",
@@ -2200,15 +2137,6 @@
     "text": "每次旋转都会向此物品中放入2枚金币。你可以消除此物品，然后获得里面金币的2.5倍。"
   },
   {
-    "id": "pink_pepper",
-    "name": "粉红辣椒",
-    "type": "item",
-    "type_zh": "物品",
-    "rarity": "common",
-    "rarity_zh": "普通",
-    "text": "每次跳过时给予2枚金币。"
-  },
-  {
     "id": "pizza_the_cat",
     "name": "披萨小猫",
     "type": "item",
@@ -2245,15 +2173,6 @@
     "text": "每旋转3次，角落里的符号被视为与所有符号相邻。"
   },
   {
-    "id": "purple_pepper",
-    "name": "紫辣椒",
-    "type": "item",
-    "type_zh": "物品",
-    "rarity": "common",
-    "rarity_zh": "普通",
-    "text": "如果有3个或以上的相同符号相邻且不是空，则给予5枚金币。"
-  },
-  {
     "id": "quigley_the_wolf",
     "name": "野狼奎格利",
     "type": "item",
@@ -2287,16 +2206,7 @@
     "type_zh": "物品",
     "rarity": "very_rare",
     "rarity_zh": "非常稀有",
-    "text": "每次旋转给予1个重置代币。"
-  },
-  {
-    "id": "red_pepper",
-    "name": "红辣椒",
-    "type": "item",
-    "type_zh": "物品",
-    "rarity": "common",
-    "rarity_zh": "普通",
-    "text": "如果每个符号都不同，则给予5枚金币。该效果忽略空。"
+    "text": "每次旋转给予1个重掷代币。"
   },
   {
     "id": "red_suits",
@@ -2533,15 +2443,6 @@
     "text": "种子有额外100%的几率生长。种子给予额外12枚金币。"
   },
   {
-    "id": "white_pepper",
-    "name": "白辣椒",
-    "type": "item",
-    "type_zh": "物品",
-    "rarity": "common",
-    "rarity_zh": "普通",
-    "text": "每当在旋转后获得的金币是3的倍数时，给予3枚金币。"
-  },
-  {
     "id": "x_ray_machine",
     "name": "X光机",
     "type": "item",
@@ -2549,15 +2450,6 @@
     "rarity": "uncommon",
     "rarity_zh": "非凡",
     "text": "巨矿和矿石只会添加稀有或更好的符号。"
-  },
-  {
-    "id": "yellow_pepper",
-    "name": "黄辣椒",
-    "type": "item",
-    "type_zh": "物品",
-    "rarity": "common",
-    "rarity_zh": "普通",
-    "text": "如果符号都不是空，则给予2枚金币。"
   },
   {
     "id": "zaroffs_contract",
@@ -2632,24 +2524,6 @@
     "text": "如果至少有13个猫咪，则消除自身。被消除后，此游戏中的猫咪给予13倍金币。"
   },
   {
-    "id": "black_pepper_essence",
-    "name": "黑辣椒精华",
-    "type": "essence",
-    "type_zh": "精华",
-    "rarity": "essence",
-    "rarity_zh": "精华",
-    "text": "每消除一个符号，给予10枚金币。在之后消除自身。"
-  },
-  {
-    "id": "blue_pepper_essence",
-    "name": "蓝辣椒精华",
-    "type": "essence",
-    "type_zh": "精华",
-    "rarity": "essence",
-    "rarity_zh": "精华",
-    "text": "如果有至少3个空，则给予30枚金币。在之后消除自身。"
-  },
-  {
     "id": "blue_suits_essence",
     "name": "黑色牌精华",
     "type": "essence",
@@ -2675,15 +2549,6 @@
     "rarity": "essence",
     "rarity_zh": "精华",
     "text": "在20次旋转后消除自身。每次旋转给予3个金币。"
-  },
-  {
-    "id": "brown_pepper_essence",
-    "name": "棕辣椒精华",
-    "type": "essence",
-    "type_zh": "精华",
-    "rarity": "essence",
-    "rarity_zh": "精华",
-    "text": "每添加一个符号，给予10枚金币。在之后消除自身。"
   },
   {
     "id": "capsule_machine_essence",
@@ -2819,15 +2684,6 @@
     "rarity": "essence",
     "rarity_zh": "精华",
     "text": "如果至少有2个忍者，则消除自身。被消除后，此游戏中的忍者给予额外3枚金币。"
-  },
-  {
-    "id": "cyan_pepper_essence",
-    "name": "青辣椒精华",
-    "type": "essence",
-    "type_zh": "精华",
-    "rarity": "essence",
-    "rarity_zh": "精华",
-    "text": "如果没有3个或以上的相同符号，则给予30枚金币。该效果忽略空。在之后消除自身。"
   },
   {
     "id": "dark_humor_essence",
@@ -2974,26 +2830,8 @@
     "text": "如果大骨灰瓮、坟墓或骨灰瓮被消除，则消除自身。被消除后，此游戏中的大骨灰瓮、坟墓和骨灰瓮可添加2倍数量的幽灵。"
   },
   {
-    "id": "gray_pepper_essence",
-    "name": "灰辣椒精华",
-    "type": "essence",
-    "type_zh": "精华",
-    "rarity": "essence",
-    "rarity_zh": "精华",
-    "text": "每次花费移除代币时给予30枚金币。在之后消除自身。"
-  },
-  {
-    "id": "green_pepper_essence",
-    "name": "绿辣椒精华",
-    "type": "essence",
-    "type_zh": "精华",
-    "rarity": "essence",
-    "rarity_zh": "精华",
-    "text": "如果有至少3个相同且非空的符号，则给予30枚金币。在之后消除自身。"
-  },
-  {
     "id": "guillotine_essence",
-    "name": "触发断头台精华",
+    "name": "断头台精华",
     "type": "essence",
     "type_zh": "精华",
     "rarity": "essence",
@@ -3062,15 +2900,6 @@
     "rarity": "essence",
     "rarity_zh": "精华",
     "text": "如果至少有4个空，则消除自身。空给予额外4枚金币。"
-  },
-  {
-    "id": "lime_pepper_essence",
-    "name": "青绿辣椒精华",
-    "type": "essence",
-    "type_zh": "精华",
-    "rarity": "essence",
-    "rarity_zh": "精华",
-    "text": "每次花费重置代币时给予30枚金币。在之后消除自身。"
   },
   {
     "id": "lint_roller_essence",
@@ -3217,15 +3046,6 @@
     "text": "在25次旋转后消除自身。每次旋转都会向此物品中放入2枚金币。被消除后给予152枚金币。"
   },
   {
-    "id": "pink_pepper_essence",
-    "name": "粉红辣椒精华",
-    "type": "essence",
-    "type_zh": "精华",
-    "rarity": "essence",
-    "rarity_zh": "精华",
-    "text": "每次跳过时给予20枚金币。在之后消除自身。"
-  },
-  {
     "id": "pizza_the_cat_essence",
     "name": "披萨小猫精华",
     "type": "essence",
@@ -3262,15 +3082,6 @@
     "text": "在4次旋转后消除自身。角落里的符号被视为与所有符号相邻。"
   },
   {
-    "id": "purple_pepper_essence",
-    "name": "紫辣椒精华",
-    "type": "essence",
-    "type_zh": "精华",
-    "rarity": "essence",
-    "rarity_zh": "精华",
-    "text": "如果有3个或以上的相同符号相邻且不是空，则给予50枚金币。在之后消除自身。"
-  },
-  {
     "id": "quigley_the_wolf_essence",
     "name": "野狼奎格利精华",
     "type": "essence",
@@ -3304,16 +3115,7 @@
     "type_zh": "精华",
     "rarity": "essence",
     "rarity_zh": "精华",
-    "text": "在你旋转后，消除自身。被消除后给予5枚重置代币。"
-  },
-  {
-    "id": "red_pepper_essence",
-    "name": "红辣椒精华",
-    "type": "essence",
-    "type_zh": "精华",
-    "rarity": "essence",
-    "rarity_zh": "精华",
-    "text": "如果每个符号都不同，则给予50枚金币。该效果忽略空。在之后消除自身。"
+    "text": "在你旋转后，消除自身。被消除后给予5枚重掷代币。"
   },
   {
     "id": "red_suits_essence",
@@ -3550,15 +3352,6 @@
     "text": "当种子种子生长时，消除自身。种子给予额外20枚金币。"
   },
   {
-    "id": "white_pepper_essence",
-    "name": "白辣椒精华",
-    "type": "essence",
-    "type_zh": "精华",
-    "rarity": "essence",
-    "rarity_zh": "精华",
-    "text": "每当在旋转后获得的金币是3的倍数时，给予30枚金币。在之后消除自身。"
-  },
-  {
     "id": "x_ray_machine_essence",
     "name": "X光机精华",
     "type": "essence",
@@ -3566,15 +3359,6 @@
     "rarity": "essence",
     "rarity_zh": "精华",
     "text": "在矿石或巨矿被消除前，消除自身。被消除后，此旋转中，保证矿石和巨矿会添加非常稀有符号。"
-  },
-  {
-    "id": "yellow_pepper_essence",
-    "name": "黄辣椒精华",
-    "type": "essence",
-    "type_zh": "精华",
-    "rarity": "essence",
-    "rarity_zh": "精华",
-    "text": "如果符号都不是空，则给予20枚金币。在之后消除自身。"
   },
   {
     "id": "zaroffs_contract_essence",
