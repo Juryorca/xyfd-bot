@@ -60,17 +60,16 @@ def is_game_expired(game: dict) -> bool:
     return datetime.now() - started_at >= get_timeout()
 
 
-def cleanup_expired_game(group_id: int) -> bool:
+def cleanup_expired_game(group_id: int) -> dict | None:
     game = games.get(group_id)
 
     if not game:
-        return False
+        return None
 
     if is_game_expired(game):
-        del games[group_id]
-        return True
+        return games.pop(group_id)
 
-    return False
+    return None
 
 
 def load_cards() -> list[dict]:
@@ -122,7 +121,10 @@ def build_hint_text(card: dict) -> tuple[str, str]:
 
 
 def render_hint(hint: str, revealed: set[str]) -> str:
-    return "".join(ch if ch in revealed or ch in VISIBLE_CHARS else "□" for ch in hint)
+    return "".join(
+        ch if ch in revealed or ch in VISIBLE_CHARS else "□"
+        for ch in hint
+    )
 
 
 def render_game_hint(game: dict) -> str:
@@ -151,16 +153,29 @@ def is_hint_fully_revealed(hint: str, revealed: set[str]) -> bool:
 
 
 # 指令必须 @机器人 才触发
-ping = on_command("ping", priority=5)
+ping = on_command("ping", rule=to_me(), priority=5)
 
 
 @ping.handle()
 async def _(event: GroupMessageEvent):
     group_id = event.group_id
+
+    print(
+        f"[guess_word] ping triggered: "
+        f"group_id={event.group_id}, "
+        f"user_id={event.user_id}, "
+        f"plain_text={event.get_plaintext()!r}, "
+        f"message={event.message!r}"
+    )
+
     if not is_group_allowed(group_id):
+        print(f"[guess_word] ping blocked: group_id={group_id} not allowed")
         return
 
+    print(f"[guess_word] ping accepted: group_id={group_id}")
     await ping.finish("pong")
+
+
 # 指令必须 @机器人 才触发
 start_guess = on_command("猜字", rule=to_me(), priority=5)
 
@@ -172,12 +187,11 @@ async def _(event: GroupMessageEvent):
     if not is_group_allowed(group_id):
         await start_guess.finish("本群未启用猜字功能。")
 
-    if cleanup_expired_game(group_id):
-        await start_guess.finish("上一局猜字已超时结束，请重新发送 /猜字 开始。")
-
+    # /猜字 只管有没有游戏，不处理超时
     if group_id in games:
         await start_guess.finish(
-            "本群已经有猜字游戏在进行了。\n发送 /猜字状态 查看当前提示。"
+            "本群已经有猜字游戏在进行了。\n"
+            "发送 @机器人 /猜字状态 查看当前提示。"
         )
 
     if not cards:
@@ -205,7 +219,7 @@ async def _(event: GroupMessageEvent):
         "玩法说明：\n"
         "发送任意消息，消息里的字如果出现在效果描述中，就会被揭示。\n"
         "游戏进行中的消息检测不需要 @机器人。\n"
-	"精华请在最后带上精华二字\n"
+        "精华请在最后带上精华二字。\n"
         "如果消息里包含正确的物品名字，就算猜对。\n\n"
         "当前提示：\n"
         f"{render_game_hint(games[group_id])}"
@@ -223,13 +237,11 @@ async def _(event: GroupMessageEvent):
     if not is_group_allowed(group_id):
         await status_guess.finish("本群未启用猜字功能。")
 
-    if cleanup_expired_game(group_id):
-        await status_guess.finish("本局猜字已超时结束。")
+    # /猜字状态 不处理超时，只显示有没有正在进行的游戏
+    game = games.get(group_id)
 
-    if group_id not in games:
+    if not game:
         await status_guess.finish("本群没有正在进行的猜字游戏。")
-
-    game = games[group_id]
 
     await status_guess.finish(f"当前提示：\n{render_game_hint(game)}")
 
@@ -245,17 +257,15 @@ async def _(event: GroupMessageEvent):
     if not is_group_allowed(group_id):
         await stop_guess.finish("本群未启用猜字功能。")
 
-    if cleanup_expired_game(group_id):
-        await stop_guess.finish("本局猜字已超时结束。")
-
     if group_id not in games:
         await stop_guess.finish("本群没有正在进行的猜字游戏。")
 
-    game = games[group_id]
-    del games[group_id]
+    game = games.pop(group_id)
 
     await stop_guess.finish(
-        f"猜字已结束。\n答案是：{game['name']}\n{full_game_hint(game)}"
+        f"猜字已结束。\n"
+        f"答案是：{game['name']}\n"
+        f"{full_game_hint(game)}"
     )
 
 
@@ -273,17 +283,23 @@ async def _(event: GroupMessageEvent):
     if group_id not in games:
         return
 
-    if cleanup_expired_game(group_id):
-        await guess_listener.finish(f"本局猜字已超时结束。\n答案是: {name}\n{full_game_hint(game)}")
-
     text = event.get_plaintext().strip()
 
     if not text:
         return
 
-    # 普通消息里如果是命令，不参与揭示
+    # 普通消息里如果是命令，不参与揭示，也不触发超时结算
     if text.startswith("/"):
         return
+
+    # 超时只在普通群消息检测时结算一次
+    expired_game = cleanup_expired_game(group_id)
+    if expired_game:
+        await guess_listener.finish(
+            f"本局猜字已超时结束。\n"
+            f"答案是：{expired_game['name']}\n"
+            f"{full_game_hint(expired_game)}"
+        )
 
     game = games[group_id]
     name = game["name"]
@@ -291,8 +307,12 @@ async def _(event: GroupMessageEvent):
 
     # 1. 先判断是否猜中物品名字
     if normalize(name) in normalize(text):
-        del games[group_id]
-        await guess_listener.finish(f"猜对了！\n答案是：{name}\n{full_game_hint(game)}")
+        game = games.pop(group_id)
+        await guess_listener.finish(
+            f"猜对了！\n"
+            f"答案是：{game['name']}\n"
+            f"{full_game_hint(game)}"
+        )
 
     # 2. 没猜中，再用消息里的字揭示效果描述
     old_revealed = set(game["revealed"])
@@ -307,6 +327,10 @@ async def _(event: GroupMessageEvent):
     masked = render_game_hint(game)
 
     if is_hint_fully_revealed(hint_body, game["revealed"]):
-        await guess_listener.finish(f"当前提示已全部揭示！\n请猜物品名字。\n\n{masked}")
+        await guess_listener.finish(
+            f"当前提示已全部揭示！\n"
+            f"请猜物品名字。\n\n"
+            f"{masked}"
+        )
 
     await guess_listener.finish(f"当前提示：\n{masked}")
