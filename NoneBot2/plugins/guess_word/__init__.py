@@ -174,7 +174,7 @@ async def _(event: GroupMessageEvent):
 
 
 # 指令必须 @机器人 才触发
-start_guess = on_command("猜字", rule=to_me(), priority=5)
+start_guess = on_command("旋转", rule=to_me(), priority=5)
 
 
 @start_guess.handle()
@@ -209,9 +209,9 @@ async def _(event: GroupMessageEvent):
         "猜字开始！\n"
         "根据逐步揭示的效果描述，猜出物品名字。\n\n"
         "相关指令：\n"
-        "@机器人 /猜字：开始一局新游戏\n"
-        "@机器人 /猜字状态：查看当前提示\n"
-        "@机器人 /结束猜字：结束本局并公布答案\n\n"
+        "@机器人 /旋转：开始一局新游戏\n"
+        "@机器人 /旋转状态：查看当前提示\n"
+        "@机器人 /结束旋转：结束本局并公布答案\n\n"
         "玩法说明：\n"
         "发送任意消息，消息里的字如果出现在效果描述中，就会被揭示。\n"
         "游戏进行中的消息检测不需要 @机器人。\n"
@@ -223,7 +223,7 @@ async def _(event: GroupMessageEvent):
 
 
 # 指令必须 @机器人 才触发
-status_guess = on_command("猜字状态", rule=to_me(), priority=5)
+status_guess = on_command("旋转状态", rule=to_me(), priority=5)
 
 
 @status_guess.handle()
@@ -243,7 +243,7 @@ async def _(event: GroupMessageEvent):
 
 
 # 指令必须 @机器人 才触发
-stop_guess = on_command("结束猜字", rule=to_me(), priority=5)
+stop_guess = on_command("结束旋转", rule=to_me(), priority=5)
 
 
 @stop_guess.handle()
