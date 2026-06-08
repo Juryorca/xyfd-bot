@@ -205,6 +205,7 @@ async def _(event: GroupMessageEvent):
         "玩法说明：\n"
         "发送任意消息，消息里的字如果出现在效果描述中，就会被揭示。\n"
         "游戏进行中的消息检测不需要 @机器人。\n"
+	"精华请在最后带上精华二字\n"
         "如果消息里包含正确的物品名字，就算猜对。\n\n"
         "当前提示：\n"
         f"{render_game_hint(games[group_id])}"
@@ -273,7 +274,7 @@ async def _(event: GroupMessageEvent):
         return
 
     if cleanup_expired_game(group_id):
-        await guess_listener.finish("本局猜字已超时结束。")
+        await guess_listener.finish(f"本局猜字已超时结束。\n答案是: {name}\n{full_game_hint(game)}")
 
     text = event.get_plaintext().strip()
 
