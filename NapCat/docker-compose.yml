@@ -14,6 +14,7 @@ services:
       - NAPCAT_UID=${NAPCAT_UID}
       - NAPCAT_GID=${NAPCAT_GID}
       - NAPCAT_HEADLESS=true
+      - ACCOUNT=3495972136
     volumes:
       - ./data/QQ:/app/.config/QQ
       - ./data/config:/app/napcat/config
