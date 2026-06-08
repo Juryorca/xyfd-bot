@@ -12,7 +12,7 @@ BASE_DIR = Path(__file__).parent
 CARD_PATH = BASE_DIR / "cards.json"
 CONFIG_PATH = BASE_DIR / "config.json"
 
-VISIBLE_CHARS = set(" \n\r\t，。、：:；;！!？?（）()[]【】+-*/%=0123456789")
+VISIBLE_CHARS = set(" \n\r\t，。、.：:；;！!？?（）()[]【】+-*/%=0123456789")
 
 games: dict[int, dict] = {}
 
@@ -121,10 +121,7 @@ def build_hint_text(card: dict) -> tuple[str, str]:
 
 
 def render_hint(hint: str, revealed: set[str]) -> str:
-    return "".join(
-        ch if ch in revealed or ch in VISIBLE_CHARS else "□"
-        for ch in hint
-    )
+    return "".join(ch if ch in revealed or ch in VISIBLE_CHARS else "□" for ch in hint)
 
 
 def render_game_hint(game: dict) -> str:
@@ -190,8 +187,7 @@ async def _(event: GroupMessageEvent):
     # /猜字 只管有没有游戏，不处理超时
     if group_id in games:
         await start_guess.finish(
-            "本群已经有猜字游戏在进行了。\n"
-            "发送 @机器人 /猜字状态 查看当前提示。"
+            "本群已经有猜字游戏在进行了。\n发送 @机器人 /猜字状态 查看当前提示。"
         )
 
     if not cards:
@@ -263,9 +259,7 @@ async def _(event: GroupMessageEvent):
     game = games.pop(group_id)
 
     await stop_guess.finish(
-        f"猜字已结束。\n"
-        f"答案是：{game['name']}\n"
-        f"{full_game_hint(game)}"
+        f"猜字已结束。\n答案是：{game['name']}\n{full_game_hint(game)}"
     )
 
 
@@ -309,9 +303,7 @@ async def _(event: GroupMessageEvent):
     if normalize(name) in normalize(text):
         game = games.pop(group_id)
         await guess_listener.finish(
-            f"猜对了！\n"
-            f"答案是：{game['name']}\n"
-            f"{full_game_hint(game)}"
+            f"猜对了！\n答案是：{game['name']}\n{full_game_hint(game)}"
         )
 
     # 2. 没猜中，再用消息里的字揭示效果描述
@@ -327,10 +319,6 @@ async def _(event: GroupMessageEvent):
     masked = render_game_hint(game)
 
     if is_hint_fully_revealed(hint_body, game["revealed"]):
-        await guess_listener.finish(
-            f"当前提示已全部揭示！\n"
-            f"请猜物品名字。\n\n"
-            f"{masked}"
-        )
+        await guess_listener.finish(f"当前提示已全部揭示！\n请猜物品名字。\n\n{masked}")
 
     await guess_listener.finish(f"当前提示：\n{masked}")
