@@ -151,19 +151,16 @@ def is_hint_fully_revealed(hint: str, revealed: set[str]) -> bool:
 
 
 # 指令必须 @机器人 才触发
-ping = on_command("ping", rule=to_me(), priority=5)
+ping = on_command("ping", priority=5)
 
 
 @ping.handle()
 async def _(event: GroupMessageEvent):
     group_id = event.group_id
-
     if not is_group_allowed(group_id):
         return
 
     await ping.finish("pong")
-
-
 # 指令必须 @机器人 才触发
 start_guess = on_command("猜字", rule=to_me(), priority=5)
 

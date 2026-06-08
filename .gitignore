@@ -51,3 +51,6 @@ NoneBot2/plugins/guess_word/zh_dump.tsv
 NoneBot2/plugins/guess_word/config.json
 
 前端面板访问.sh
+
+scripts/
+

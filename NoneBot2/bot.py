@@ -1,5 +1,12 @@
+import os
+from pathlib import Path
+
 import nonebot
 from nonebot.adapters.onebot.v11 import Adapter as OneBotV11Adapter
+
+
+BASE_DIR = Path(__file__).resolve().parent
+os.chdir(BASE_DIR)
 
 nonebot.init()
 
