@@ -1,0 +1,3588 @@
+[
+  {
+    "id": "amethyst",
+    "name": "紫水晶",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "每当另一个符号使此符号给予额外的金币，此符号会永久给予额外1枚金币。",
+    "value": 1
+  },
+  {
+    "id": "anchor",
+    "name": "锚",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "位于角落时给予额外4枚金币。",
+    "value": 1
+  },
+  {
+    "id": "apple",
+    "name": "苹果",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "",
+    "value": 3
+  },
+  {
+    "id": "archaeologist",
+    "name": "地质学家",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "消除相邻的巨矿、矿石、珍珠、蓝宝石和闪亮鹅卵石。每消除一个符号，永久给予1枚金币。",
+    "value": 2
+  },
+  {
+    "id": "banana",
+    "name": "香蕉",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "被消除后添加香蕉皮。",
+    "value": 1
+  },
+  {
+    "id": "banana_peel",
+    "name": "香蕉皮",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "消除相邻的小偷。在之后消除自身。",
+    "value": 1
+  },
+  {
+    "id": "bar_of_soap",
+    "name": "肥皂条",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "每次旋转添加一个泡泡符号。在给予金币3次后消除自身。",
+    "value": 1
+  },
+  {
+    "id": "bartender",
+    "name": "酒保",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "有10%的几率添加啤酒、七号化学物、马提尼酒或葡萄酒。",
+    "value": 3
+  },
+  {
+    "id": "bear",
+    "name": "熊",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "消除相邻的蜂蜜。每消除一个蜂蜜，获得40枚金币。",
+    "value": 2
+  },
+  {
+    "id": "beastmaster",
+    "name": "驯兽师",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "相邻的熊、蜜蜂、猫咪、小鸡、大鸡、牛、螃蟹、乌鸦、狗狗、鸽子、怪异生物、金鱼、鹅、水母、喜鹊、猴子、老鼠、猫头鹰、牡蛎、河豚、兔子、沙钱、树懒、蜗牛、龟、虚空生物和狼能给予2倍金币。",
+    "value": 2
+  },
+  {
+    "id": "bee",
+    "name": "蜜蜂",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "相邻的蜂巢、花和蜂蜜给予2倍金币。如果与蜂巢、花或蜂蜜相邻，则额外给予1枚金币。",
+    "value": 1
+  },
+  {
+    "id": "beehive",
+    "name": "蜂巢",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "有10%的几率添加蜂蜜。",
+    "value": 3
+  },
+  {
+    "id": "beer",
+    "name": "啤酒",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "",
+    "value": 1
+  },
+  {
+    "id": "big_ore",
+    "name": "巨矿",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "被消除后添加2颗紫水晶、钻石、绿宝石、珍珠、红宝石、蓝宝石、闪亮鹅卵石或虚空之石。",
+    "value": 2
+  },
+  {
+    "id": "big_urn",
+    "name": "大骨灰瓮",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "被消除后添加2个幽灵。",
+    "value": 2
+  },
+  {
+    "id": "billionaire",
+    "name": "亿万富翁",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "相邻的奶酪和葡萄酒给予2倍金币。被消除后给予39枚金币。"
+  },
+  {
+    "id": "bluebird",
+    "name": "蓝鸟",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": null,
+    "rarity_zh": "",
+    "text": ""
+  },
+  {
+    "id": "bounty_hunter",
+    "name": "赏金猎人",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "消除相邻的小偷。每消除一个小偷，获得20枚金币。",
+    "value": 1
+  },
+  {
+    "id": "bronze_arrow",
+    "name": "铜箭",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "指向随机方向，指向的所有符号给予2倍金币。消除指向的靶子。"
+  },
+  {
+    "id": "bubble",
+    "name": "泡泡",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "在给予金币3次后消除自身。",
+    "value": 2
+  },
+  {
+    "id": "buffing_powder",
+    "name": "增益扭蛋",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "消除自身。相邻的符号给予2倍金币。"
+  },
+  {
+    "id": "candy",
+    "name": "糖果",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "",
+    "value": 1
+  },
+  {
+    "id": "card_shark",
+    "name": "纸牌高手",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "相邻的梅花、方块、红桃和黑桃是通配符。",
+    "value": 3
+  },
+  {
+    "id": "cat",
+    "name": "猫咪",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "消除相邻的牛奶。每消除一个牛奶，获得9枚金币。",
+    "value": 1
+  },
+  {
+    "id": "cheese",
+    "name": "奶酪",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "",
+    "value": 1
+  },
+  {
+    "id": "chef",
+    "name": "厨师",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "相邻的苹果、香蕉、啤酒、糖果、奶酪、七号化学物、樱桃、半个椰子、蛋、金蛋、蜂蜜、马提尼酒、牛奶、煎蛋卷、橙子、桃子、梨、草莓、虚空水果、西瓜和葡萄酒给予2倍金币。",
+    "value": 2
+  },
+  {
+    "id": "chemical_seven",
+    "name": "七号化学物",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "消除自身。在被消除时给予7枚金币并添加1个幸运七物品。"
+  },
+  {
+    "id": "cherry",
+    "name": "樱桃",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "",
+    "value": 1
+  },
+  {
+    "id": "chick",
+    "name": "小鸡",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "有10%的几率长成大鸡。",
+    "value": 1
+  },
+  {
+    "id": "chicken",
+    "name": "大鸡",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "有5%的几率添加蛋。有1%的几率添加金蛋。",
+    "value": 2
+  },
+  {
+    "id": "clubs",
+    "name": "梅花",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "相邻的梅花和黑桃额外给予1枚金币。如果有至少3个梅花、方块、红桃或黑桃，则额外给予1枚金币。",
+    "value": 1
+  },
+  {
+    "id": "coal",
+    "name": "煤炭",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "在20次旋转之后变成钻石。"
+  },
+  {
+    "id": "coconut",
+    "name": "椰子",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "被消除后添加2个半个椰子。",
+    "value": 1
+  },
+  {
+    "id": "coconut_half",
+    "name": "半个椰子",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "",
+    "value": 2
+  },
+  {
+    "id": "coin",
+    "name": "硬币",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "",
+    "value": 1
+  },
+  {
+    "id": "comedian",
+    "name": "喜剧演员",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "相邻的香蕉、香蕉皮、狗狗、小丑、猴子和幼儿能给予3倍金币。",
+    "value": 3
+  },
+  {
+    "id": "copper",
+    "name": "铜",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": null,
+    "rarity_zh": "",
+    "text": ""
+  },
+  {
+    "id": "cow",
+    "name": "牛",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "有15%的几率添加牛奶。",
+    "value": 3
+  },
+  {
+    "id": "crab",
+    "name": "螃蟹",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "同一排中每有一只其它螃蟹，给予额外3枚金币。",
+    "value": 1
+  },
+  {
+    "id": "crow",
+    "name": "乌鸦",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "每4次旋转给予-3枚金币。",
+    "value": 2
+  },
+  {
+    "id": "cultist",
+    "name": "异教徒",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "每有一个其它异教徒，给予额外1枚金币。如果有至少3个异教徒，则额外给予1枚金币。"
+  },
+  {
+    "id": "d3",
+    "name": "三面骰",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "随机给予1枚金币至3枚金币。"
+  },
+  {
+    "id": "d5",
+    "name": "五面骰",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "随机给予1枚金币至5枚金币。"
+  },
+  {
+    "id": "dame",
+    "name": "贵妇",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "相邻的紫水晶、钻石、绿宝石、珍珠、红宝石、蓝宝石、闪亮鹅卵石和虚空之石给予2倍金币。消除相邻的马提尼酒。每消除一个马提尼酒，获得40枚金币。",
+    "value": 2
+  },
+  {
+    "id": "diamond",
+    "name": "钻石",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "very_rare",
+    "rarity_zh": "非常稀有",
+    "text": "每有一个其它钻石，给予额外1枚金币。",
+    "value": 5
+  },
+  {
+    "id": "diamonds",
+    "name": "方块",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "相邻的方块和红桃额外给予1枚金币。如果有至少3个梅花、方块、红桃或黑桃，则额外给予1枚金币。",
+    "value": 1
+  },
+  {
+    "id": "diver",
+    "name": "潜水员",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "移除相邻的锚、螃蟹、金鱼、水母、牡蛎、珍珠、河豚、沙钱、蜗牛和龟。每移除一个符号，永久给予1枚金币。",
+    "value": 2
+  },
+  {
+    "id": "dog",
+    "name": "狗狗",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "如果与地质学家、酒保、驯兽师、赏金猎人、纸牌高手、厨师、喜剧演员、异教徒、贵妇、潜水员、矮人、农夫、赌徒、扎罗夫将军、流氓、小丑、迈达斯国王、矿工、水果女士、忍者、海盗、罗宾汉、小偷、幼儿或女巫相邻，则额外给予2枚金币。该效果每次旋转时对每个符号仅适用一次。",
+    "value": 1
+  },
+  {
+    "id": "dove",
+    "name": "鸽子",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "如果一个相邻的符号本会被消除，则那个符号不会被消除，而且本符号会永久提供额外1枚金币。",
+    "value": 2
+  },
+  {
+    "id": "dud",
+    "name": "无用之物",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": null,
+    "rarity_zh": "",
+    "text": "在33次旋转后消除自身。不可被移除。"
+  },
+  {
+    "id": "dwarf",
+    "name": "矮人",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "消除相邻的啤酒和葡萄酒。给予相当于以这种方式消除的符号的价值10倍的金币。",
+    "value": 1
+  },
+  {
+    "id": "egg",
+    "name": "蛋",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "有10%的几率变成小鸡。",
+    "value": 1
+  },
+  {
+    "id": "eldritch_beast",
+    "name": "怪异生物",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "very_rare",
+    "rarity_zh": "非常稀有",
+    "text": "消除相邻的异教徒、破坏魔法、抽吸魔法、空虚魔法、囤积魔法、迈达斯魔法、沉闷魔法、偷窃魔法和女巫。每有一个已被消除或移除的异教徒、破坏魔法、抽吸魔法、空虚魔法、囤积魔法、迈达斯魔法、沉闷魔法、偷窃魔法和女巫，永久给予1枚金币。",
+    "value": 4
+  },
+  {
+    "id": "emerald",
+    "name": "绿宝石",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "如果有至少2个绿宝石，则额外给予1枚金币。",
+    "value": 3
+  },
+  {
+    "id": "empty",
+    "name": "空",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": null,
+    "rarity_zh": "",
+    "text": ""
+  },
+  {
+    "id": "essence_capsule",
+    "name": "精华扭蛋",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "消除自身。被消除后给予1枚精华代币。",
+    "value": -12
+  },
+  {
+    "id": "farmer",
+    "name": "农夫",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "相邻的苹果、香蕉、奶酪、樱桃、小鸡、大鸡、椰子、牛、蛋、花、金蛋、牛奶、橙子、桃子、梨、种子、草莓、虚空水果和西瓜给予2倍金币。相邻的种子有额外50%的几率生长。",
+    "value": 2
+  },
+  {
+    "id": "flower",
+    "name": "花",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "",
+    "value": 1
+  },
+  {
+    "id": "frozen_fossil",
+    "name": "冰冻化石",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "在20次旋转后消除自身。每有一个已被消除或移除的异教徒、破坏魔法、抽吸魔法、空虚魔法、囤积魔法、迈达斯魔法、沉闷魔法、偷窃魔法和女巫，所需的旋转次数减少5次。被消除后添加怪异生物。"
+  },
+  {
+    "id": "gambler",
+    "name": "赌徒",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "被消除后给予?枚金币。每次旋转“?”增加2。当五面骰或三面骰掷出1点或1点时，消除自身。",
+    "value": 1
+  },
+  {
+    "id": "general_zaroff",
+    "name": "扎罗夫将军",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "消除相邻的地质学家、酒保、驯兽师、亿万富翁、赏金猎人、纸牌高手、厨师、喜剧演员、异教徒、贵妇、潜水员、矮人、农夫、赌徒、扎罗夫将军、流氓、小丑、迈达斯国王、矿工、水果女士、忍者、海盗、罗宾汉、小偷、幼儿和女巫。每消除一个符号，给予25枚金币。",
+    "value": 1
+  },
+  {
+    "id": "golden_arrow",
+    "name": "金箭",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "very_rare",
+    "rarity_zh": "非常稀有",
+    "text": "指向随机方向，指向的所有符号给予4倍金币。消除指向的靶子。"
+  },
+  {
+    "id": "golden_egg",
+    "name": "金蛋",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "",
+    "value": 4
+  },
+  {
+    "id": "goldfish",
+    "name": "金鱼",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "消除相邻的泡泡。每消除一个泡泡，获得15枚金币。",
+    "value": 1
+  },
+  {
+    "id": "golem",
+    "name": "石巨人",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "在5次旋转后消除自身。被消除后添加5个矿石。"
+  },
+  {
+    "id": "goose",
+    "name": "鹅",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "有1%的几率添加金蛋。",
+    "value": 1
+  },
+  {
+    "id": "hearts",
+    "name": "红桃",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "相邻的方块和红桃额外给予1枚金币。如果有至少3个梅花、方块、红桃或黑桃，则额外给予1枚金币。",
+    "value": 1
+  },
+  {
+    "id": "hex_of_destruction",
+    "name": "破坏魔法",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "有30%的几率消除一个相邻的符号。",
+    "value": 3
+  },
+  {
+    "id": "hex_of_draining",
+    "name": "抽吸魔法",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "有30%的几率让相邻的一个符号给予0枚金币。",
+    "value": 3
+  },
+  {
+    "id": "hex_of_emptiness",
+    "name": "空虚魔法",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "有30%的几率迫使你跳过可在旋转后添加的符号。",
+    "value": 3
+  },
+  {
+    "id": "hex_of_hoarding",
+    "name": "囤积魔法",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "有30%的几率迫使你在此次旋转后添加一个符号。",
+    "value": 3
+  },
+  {
+    "id": "hex_of_midas",
+    "name": "迈达斯魔法",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "有30%的几率添加硬币。",
+    "value": 3
+  },
+  {
+    "id": "hex_of_tedium",
+    "name": "沉闷魔法",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "找到非凡、稀有和非常稀有符号的几率除以1.3。",
+    "value": 3
+  },
+  {
+    "id": "hex_of_thievery",
+    "name": "偷窃魔法",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "有30%的几率拿走6枚金币。",
+    "value": 3
+  },
+  {
+    "id": "highlander",
+    "name": "高地剑",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "very_rare",
+    "rarity_zh": "非常稀有",
+    "text": "只能有1把高地剑。",
+    "value": 6
+  },
+  {
+    "id": "honey",
+    "name": "蜂蜜",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "",
+    "value": 3
+  },
+  {
+    "id": "hooligan",
+    "name": "流氓",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "消除相邻的大骨灰瓮、坟墓和骨灰瓮。每消除一个大骨灰瓮、坟墓和骨灰瓮，获得6枚金币。",
+    "value": 2
+  },
+  {
+    "id": "hover_coin",
+    "name": "硬币",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": null,
+    "rarity_zh": "",
+    "text": "",
+    "value": 1
+  },
+  {
+    "id": "hustler",
+    "name": "诈骗扭蛋",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "消除自身。被消除后添加1个台球物品。",
+    "value": -7
+  },
+  {
+    "id": "item_capsule",
+    "name": "物品扭蛋",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "消除自身。在被消除时添加1个普通物品。"
+  },
+  {
+    "id": "jellyfish",
+    "name": "水母",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "在被移除时给予1枚移除代币。",
+    "value": 2
+  },
+  {
+    "id": "joker",
+    "name": "小丑",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "相邻的梅花、方块、红桃和黑桃给予2倍金币。",
+    "value": 3
+  },
+  {
+    "id": "key",
+    "name": "钥匙",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "消除相邻的带锁箱、巨大宝箱、保险箱和藏宝箱。在之后消除自身。",
+    "value": 1
+  },
+  {
+    "id": "king_midas",
+    "name": "迈达斯国王",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "每次旋转添加一个硬币符号。相邻的硬币给予3倍金币。",
+    "value": 1
+  },
+  {
+    "id": "light_bulb",
+    "name": "电灯泡",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "相邻的紫水晶、钻石、绿宝石、珍珠、红宝石、蓝宝石、闪亮鹅卵石和虚空之石给予2倍金币。使其他符号给予额外金币5次后，消除自身。",
+    "value": 1
+  },
+  {
+    "id": "lockbox",
+    "name": "带锁箱",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "被消除后给予15枚金币。",
+    "value": 1
+  },
+  {
+    "id": "lucky_capsule",
+    "name": "财富扭蛋",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "消除自身。被消除后给予10枚金币。"
+  },
+  {
+    "id": "magic_key",
+    "name": "魔法钥匙",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "消除相邻的带锁箱、巨大宝箱、保险箱和藏宝箱。以这种方式被消除的符号给予3倍金币。在之后消除自身。",
+    "value": 2
+  },
+  {
+    "id": "magpie",
+    "name": "喜鹊",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "每4次旋转给予9枚金币。",
+    "value": -1
+  },
+  {
+    "id": "martini",
+    "name": "马提尼酒",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "",
+    "value": 3
+  },
+  {
+    "id": "matryoshka_doll_1",
+    "name": "俄罗斯套娃",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "在3次旋转后消除自身。被消除后添加俄罗斯套娃。"
+  },
+  {
+    "id": "matryoshka_doll_2",
+    "name": "俄罗斯套娃",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": null,
+    "rarity_zh": "",
+    "text": "在5次旋转后消除自身。被消除后添加俄罗斯套娃。",
+    "value": 1
+  },
+  {
+    "id": "matryoshka_doll_3",
+    "name": "俄罗斯套娃",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": null,
+    "rarity_zh": "",
+    "text": "在7次旋转后消除自身。被消除后添加俄罗斯套娃。",
+    "value": 2
+  },
+  {
+    "id": "matryoshka_doll_4",
+    "name": "俄罗斯套娃",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": null,
+    "rarity_zh": "",
+    "text": "在9次旋转后消除自身。被消除后添加俄罗斯套娃。",
+    "value": 3
+  },
+  {
+    "id": "matryoshka_doll_5",
+    "name": "俄罗斯套娃",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": null,
+    "rarity_zh": "",
+    "text": "",
+    "value": 4
+  },
+  {
+    "id": "mega_chest",
+    "name": "巨大宝箱",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "very_rare",
+    "rarity_zh": "非常稀有",
+    "text": "被消除后给予100枚金币。",
+    "value": 3
+  },
+  {
+    "id": "midas_bomb",
+    "name": "迈达斯炸弹",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "very_rare",
+    "rarity_zh": "非常稀有",
+    "text": "消除自身和所有相邻的符号。以这种方式被消除的符号给予相当于其价值7倍的金币。"
+  },
+  {
+    "id": "milk",
+    "name": "牛奶",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "",
+    "value": 1
+  },
+  {
+    "id": "mine",
+    "name": "矿井",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "每次旋转添加一个矿石符号。在给予金币4次后消除自身。被消除后添加1个矿镐物品。",
+    "value": 4
+  },
+  {
+    "id": "miner",
+    "name": "矿工",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "消除相邻的巨矿和矿石。每消除一个巨矿和矿石，获得20枚金币。",
+    "value": 1
+  },
+  {
+    "id": "monkey",
+    "name": "猴子",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "消除相邻的香蕉、椰子和半个椰子。给予相当于以这种方式消除的符号的价值6倍的金币。",
+    "value": 1
+  },
+  {
+    "id": "moon",
+    "name": "月亮",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "相邻的猫头鹰、兔子和狼给予3倍金币。被消除后添加3个奶酪。",
+    "value": 3
+  },
+  {
+    "id": "mouse",
+    "name": "老鼠",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "消除相邻的奶酪。每消除一个奶酪，获得20枚金币。",
+    "value": 1
+  },
+  {
+    "id": "mrs_fruit",
+    "name": "水果女士",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "消除相邻的香蕉、樱桃、椰子、半个椰子、橙子和桃子。每消除一个符号，永久给予1枚金币。",
+    "value": 2
+  },
+  {
+    "id": "ninja",
+    "name": "忍者",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "每有一个其它忍者，少给予1枚金币。",
+    "value": 2
+  },
+  {
+    "id": "omelette",
+    "name": "煎蛋卷",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "如果与奶酪、蛋、金蛋、牛奶或煎蛋卷相邻，则额外给予2枚金币。该效果每次旋转时对每个符号仅适用一次。",
+    "value": 3
+  },
+  {
+    "id": "orange",
+    "name": "橙子",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "",
+    "value": 2
+  },
+  {
+    "id": "ore",
+    "name": "矿石",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "被消除后添加紫水晶、钻石、绿宝石、珍珠、红宝石、蓝宝石、闪亮鹅卵石或虚空之石。",
+    "value": 1
+  },
+  {
+    "id": "owl",
+    "name": "猫头鹰",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "每3次旋转给予1枚金币。",
+    "value": 1
+  },
+  {
+    "id": "oyster",
+    "name": "牡蛎",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "有20%的几率添加珍珠。在被移除时添加珍珠。",
+    "value": 1
+  },
+  {
+    "id": "peach",
+    "name": "桃子",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "被消除后添加种子。",
+    "value": 2
+  },
+  {
+    "id": "pear",
+    "name": "梨",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "每当另一个符号使此符号给予额外的金币，此符号会永久给予额外1枚金币。",
+    "value": 1
+  },
+  {
+    "id": "pearl",
+    "name": "珍珠",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "",
+    "value": 1
+  },
+  {
+    "id": "penguin",
+    "name": "企鹅",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": null,
+    "rarity_zh": "",
+    "text": ""
+  },
+  {
+    "id": "pigeon",
+    "name": "鸽子",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": null,
+    "rarity_zh": "",
+    "text": ""
+  },
+  {
+    "id": "pinata",
+    "name": "彩罐",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "被消除后添加7个糖果。",
+    "value": 1
+  },
+  {
+    "id": "pirate",
+    "name": "海盗",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "very_rare",
+    "rarity_zh": "非常稀有",
+    "text": "消除相邻的锚、啤酒、硬币、带锁箱、巨大宝箱、橙子、保险箱和藏宝箱。每消除一个符号，永久给予1枚金币。",
+    "value": 2
+  },
+  {
+    "id": "plum",
+    "name": "李子",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": null,
+    "rarity_zh": "",
+    "text": ""
+  },
+  {
+    "id": "present",
+    "name": "礼物",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "在12次旋转后消除自身。被消除后给予10枚金币。"
+  },
+  {
+    "id": "pufferfish",
+    "name": "河豚",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "在被移除时给予1枚重置代币。",
+    "value": 2
+  },
+  {
+    "id": "quartz",
+    "name": "石英",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": null,
+    "rarity_zh": "",
+    "text": ""
+  },
+  {
+    "id": "rabbit",
+    "name": "兔子",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "在给予金币10次后，永久给予额外2枚金币。",
+    "value": 1
+  },
+  {
+    "id": "rabbit_fluff",
+    "name": "兔毛",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "你找到非凡、稀有和非常稀有符号的几率乘以1.2。",
+    "value": 2
+  },
+  {
+    "id": "rain",
+    "name": "雨",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "相邻的花给予2倍金币。相邻的种子有额外50%的几率生长。",
+    "value": 2
+  },
+  {
+    "id": "rarity_capsule",
+    "name": "幸运扭蛋",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "消除自身。至少1个要在此次旋转后添加的符号会变成稀有或更好的符号。"
+  },
+  {
+    "id": "removal_capsule",
+    "name": "移除扭蛋",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "消除自身。被消除后给予1枚移除代币。"
+  },
+  {
+    "id": "reroll_capsule",
+    "name": "重掷扭蛋",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "消除自身。被消除后给予1枚重置代币。"
+  },
+  {
+    "id": "robin_hood",
+    "name": "罗宾汉",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "每4次旋转给予25枚金币。相邻的铜箭、金箭、银箭和小偷额外给予3枚金币。消除相邻的苹果、亿万富翁和靶子。每消除一个苹果、亿万富翁和靶子，获得15枚金币。",
+    "value": -4
+  },
+  {
+    "id": "ruby",
+    "name": "红宝石",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "如果有至少2个红宝石，则额外给予1枚金币。",
+    "value": 3
+  },
+  {
+    "id": "safe",
+    "name": "保险箱",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "被消除后给予30枚金币。",
+    "value": 1
+  },
+  {
+    "id": "sand_dollar",
+    "name": "沙钱",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "在被移除时给予10枚金币。",
+    "value": 2
+  },
+  {
+    "id": "sapphire",
+    "name": "蓝宝石",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "",
+    "value": 2
+  },
+  {
+    "id": "seed",
+    "name": "种子",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "有25%的几率长成苹果、香蕉、樱桃、椰子、花、橙子、桃子、梨、草莓、虚空水果或西瓜。",
+    "value": 1
+  },
+  {
+    "id": "shiny_pebble",
+    "name": "闪亮鹅卵石",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "你找到非凡、稀有和非常稀有符号的几率乘以1.1。",
+    "value": 1
+  },
+  {
+    "id": "silver_arrow",
+    "name": "银箭",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "指向随机方向，指向的所有符号给予3倍金币。消除指向的靶子。"
+  },
+  {
+    "id": "sloth",
+    "name": "树懒",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "每2次旋转给予4枚金币。"
+  },
+  {
+    "id": "snail",
+    "name": "蜗牛",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "每4次旋转给予5枚金币。"
+  },
+  {
+    "id": "spades",
+    "name": "黑桃",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "相邻的梅花和黑桃额外给予1枚金币。如果有至少3个梅花、方块、红桃或黑桃，则额外给予1枚金币。",
+    "value": 1
+  },
+  {
+    "id": "spirit",
+    "name": "幽灵",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "在给予金币4次后消除自身。",
+    "value": 6
+  },
+  {
+    "id": "strawberry",
+    "name": "草莓",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "如果有至少2个草莓，则额外给予1枚金币。",
+    "value": 3
+  },
+  {
+    "id": "sun",
+    "name": "太阳",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "相邻的花给予5倍金币。相邻的种子有额外50%的几率生长。",
+    "value": 3
+  },
+  {
+    "id": "target",
+    "name": "靶子",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "被消除后给予10枚金币。",
+    "value": 2
+  },
+  {
+    "id": "tedium_capsule",
+    "name": "沉闷扭蛋",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "消除自身。被消除后给予5枚金币。至少1个要在此次旋转后添加的符号会变成普通符号。"
+  },
+  {
+    "id": "thief",
+    "name": "小偷",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "被消除后给予?枚金币。每次旋转“?”增加4。",
+    "value": -1
+  },
+  {
+    "id": "time_capsule",
+    "name": "时间扭蛋",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "消除自身。被消除时，添加1个本次游戏中已消除的符号。不可添加时间扭蛋。"
+  },
+  {
+    "id": "toddler",
+    "name": "幼儿",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "消除相邻的泡泡、糖果、彩罐和礼物。每消除一个泡泡、糖果、彩罐和礼物，获得6枚金币。",
+    "value": 1
+  },
+  {
+    "id": "tomb",
+    "name": "坟墓",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "有6%的几率添加幽灵。被消除后添加4个幽灵。",
+    "value": 3
+  },
+  {
+    "id": "topaz",
+    "name": "黄玉",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": null,
+    "rarity_zh": "",
+    "text": ""
+  },
+  {
+    "id": "treasure_chest",
+    "name": "藏宝箱",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "被消除后给予50枚金币。",
+    "value": 2
+  },
+  {
+    "id": "turtle",
+    "name": "龟",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "每3次旋转给予4枚金币。"
+  },
+  {
+    "id": "urn",
+    "name": "骨灰瓮",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "被消除后添加幽灵。",
+    "value": 1
+  },
+  {
+    "id": "void_creature",
+    "name": "虚空生物",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "相邻的空额外给予1枚金币。如果和0个空相邻，则消除自身。被消除后给予8枚金币。"
+  },
+  {
+    "id": "void_fruit",
+    "name": "虚空水果",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "相邻的空额外给予1枚金币。如果和0个空相邻，则消除自身。被消除后给予8枚金币。"
+  },
+  {
+    "id": "void_stone",
+    "name": "虚空之石",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "相邻的空额外给予1枚金币。如果和0个空相邻，则消除自身。被消除后给予8枚金币。"
+  },
+  {
+    "id": "watermelon",
+    "name": "西瓜",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "very_rare",
+    "rarity_zh": "非常稀有",
+    "text": "每有一个其它西瓜，给予额外1枚金币。",
+    "value": 4
+  },
+  {
+    "id": "wildcard",
+    "name": "通配符",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "very_rare",
+    "rarity_zh": "非常稀有",
+    "text": "给予相当于相邻符号中最高价值的金币。"
+  },
+  {
+    "id": "wine",
+    "name": "葡萄酒",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "在给予金币8次后，永久给予额外1枚金币。",
+    "value": 2
+  },
+  {
+    "id": "witch",
+    "name": "女巫",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "相邻的苹果、猫咪、乌鸦、怪异生物、破坏魔法、抽吸魔法、空虚魔法、囤积魔法、迈达斯魔法、沉闷魔法、偷窃魔法、猫头鹰和幽灵给予2倍金币。",
+    "value": 2
+  },
+  {
+    "id": "wolf",
+    "name": "狼",
+    "type": "symbol",
+    "type_zh": "符号",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "",
+    "value": 2
+  },
+  {
+    "id": "adoption_papers",
+    "name": "领养文件",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "你可以消除此物品，然后选择添加3个符号。可能的符号是熊、蜜蜂、猫咪、小鸡、大鸡、牛、螃蟹、乌鸦、狗狗、鸽子、怪异生物、金鱼、鹅、水母、喜鹊、猴子、老鼠、猫头鹰、牡蛎、河豚、兔子、沙钱、树懒、蜗牛、龟、虚空生物和狼。"
+  },
+  {
+    "id": "ancient_lizard_blade",
+    "name": "古老蜥蜴之刃",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "very_rare",
+    "rarity_zh": "非常稀有",
+    "text": "每次旋转给予9个金币。储物间中每拥有一种数量大于等于2的符号，少给予1枚金币。最少给予0枚金币。该效果忽略空。"
+  },
+  {
+    "id": "anthropology_degree",
+    "name": "人类学学位",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "地质学家、酒保、驯兽师、亿万富翁、赏金猎人、纸牌高手、厨师、喜剧演员、异教徒、贵妇、潜水员、矮人、农夫、赌徒、扎罗夫将军、流氓、小丑、迈达斯国王、矿工、水果女士、忍者、海盗、罗宾汉、小偷、幼儿和女巫给予额外1枚金币。"
+  },
+  {
+    "id": "bag_of_holding",
+    "name": "方便面",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "每次支付租金后，添加一个额外物品。"
+  },
+  {
+    "id": "barrel_o_dwarves",
+    "name": "一桶矮人",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "你可以消除此物品，然后添加7个矮人。"
+  },
+  {
+    "id": "birdhouse",
+    "name": "鸟舍",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "小鸡、大鸡、乌鸦、鸽子、鹅、喜鹊和猫头鹰给予额外1枚金币。"
+  },
+  {
+    "id": "black_cat",
+    "name": "黑猫",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "每当在旋转后获得的金币是13的倍数时，给予9枚金币。猫咪能给予2倍金币。"
+  },
+  {
+    "id": "black_pepper",
+    "name": "黑辣椒",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "每消除一个符号，给予1枚金币。"
+  },
+  {
+    "id": "blue_pepper",
+    "name": "蓝辣椒",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "如果有至少3个空，则给予3枚金币。"
+  },
+  {
+    "id": "blue_suits",
+    "name": "黑色牌",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "旋转7次后，你可以消除此物品。被消除后添加梅花和黑桃。"
+  },
+  {
+    "id": "booster_pack",
+    "name": "补充包",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "你可以消除此物品，然后选择添加4个普通符号、3个非凡符号和1个稀有符号。"
+  },
+  {
+    "id": "bowling_ball",
+    "name": "保龄球",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "每次旋转给予3个金币。"
+  },
+  {
+    "id": "brown_pepper",
+    "name": "棕辣椒",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "每添加一个符号，给予1枚金币。"
+  },
+  {
+    "id": "capsule_machine",
+    "name": "扭蛋机",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "增益扭蛋、精华扭蛋、诈骗扭蛋、物品扭蛋、财富扭蛋、幸运扭蛋、移除扭蛋、重掷扭蛋、沉闷扭蛋和时间扭蛋的效果发生2次。"
+  },
+  {
+    "id": "cardboard_box",
+    "name": "纸板箱",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "每10次旋转给予1枚移除代币。"
+  },
+  {
+    "id": "checkered_flag",
+    "name": "格子旗",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "喜鹊、猫头鹰、罗宾汉、树懒、蜗牛和龟给予金币所需的旋转次数减少1次。"
+  },
+  {
+    "id": "chicken_coop",
+    "name": "鸡舍",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "小鸡、大鸡、蛋和金蛋给予额外2枚金币。大鸡有3倍的几率添加符号。蛋有3倍的几率变形。"
+  },
+  {
+    "id": "chili_powder",
+    "name": "辣椒粉",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "每有一个黑辣椒、蓝辣椒、棕辣椒、青辣椒、灰辣椒、绿辣椒、青绿辣椒、粉红辣椒、紫辣椒、红辣椒、白辣椒和黄辣椒，给予2枚金币。"
+  },
+  {
+    "id": "cleaning_rag",
+    "name": "抹布",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "紫水晶、钻石、绿宝石、珍珠、红宝石、蓝宝石、闪亮鹅卵石和虚空之石给予额外1枚金币。"
+  },
+  {
+    "id": "clear_sky",
+    "name": "晴空",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "太阳和月亮也影响不相邻的符号。"
+  },
+  {
+    "id": "coffee",
+    "name": "咖啡",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "如果付不起租金，你可以消除此物品，然后再旋转一次。"
+  },
+  {
+    "id": "coin_on_a_string",
+    "name": "系绳硬币",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "每次旋转给予1个金币。每次旋转之前移除所有硬币符号，每移除1个硬币符号，给予3枚金币。"
+  },
+  {
+    "id": "comfy_pillow",
+    "name": "舒适枕头",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "如果在租金到期之前还剩下1次旋转，则可以跳过下一次旋转，使支付租金后可选的物品中至少有1个是稀有或更好的物品。"
+  },
+  {
+    "id": "compost_heap",
+    "name": "堆肥堆",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "每消除3个符号，添加种子。种子只会变成非凡或更好的符号。"
+  },
+  {
+    "id": "conveyor_belt",
+    "name": "传送带",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "酒保、蜂巢、大鸡、牛、鹅、迈达斯魔法、牡蛎、兔子和坟墓添加符号的几率变为2倍。"
+  },
+  {
+    "id": "copycat",
+    "name": "抄袭猫",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "very_rare",
+    "rarity_zh": "非常稀有",
+    "text": "猫咪为通配符。"
+  },
+  {
+    "id": "credit_card",
+    "name": "信用卡",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "very_rare",
+    "rarity_zh": "非常稀有",
+    "text": "每旋转7次，旋转后可选择的符号增加17个。"
+  },
+  {
+    "id": "cursed_katana",
+    "name": "被诅咒的武士刀",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "每有一个其它忍者，忍者给予额外2枚金币。"
+  },
+  {
+    "id": "cyan_pepper",
+    "name": "青辣椒",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "如果没有3个或以上的相同符号，则给予3枚金币。该效果忽略空。"
+  },
+  {
+    "id": "dark_humor",
+    "name": "黑色幽默",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "当与喜剧演员相邻时，酒保、啤酒、大骨灰瓮、幽灵、坟墓、骨灰瓮和葡萄酒给予3倍金币。喜剧演员属于非凡符号，而非稀有符号。"
+  },
+  {
+    "id": "devils_deal",
+    "name": "恶魔的交易",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "你可以消除此物品，然后以添加6枚无用之物为代价跳过支付房租。"
+  },
+  {
+    "id": "dishwasher",
+    "name": "洗碗机",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "每12次旋转给予1枚精华代币。"
+  },
+  {
+    "id": "dwarven_anvil",
+    "name": "矮人砧",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "矮人给予2倍金币，而且可以消除相邻的巨矿和矿石。"
+  },
+  {
+    "id": "egg_carton",
+    "name": "蛋盒",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "每次旋转之前向此物品中放入所有蛋。此物品中每有一枚蛋都会给予1枚金币（至多给予6枚金币）。"
+  },
+  {
+    "id": "fertilizer",
+    "name": "肥料",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "种子只会变成稀有或更好的符号。种子有额外50%的几率生长。"
+  },
+  {
+    "id": "fifth_ace",
+    "name": "第5张A",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "与方块和红桃相邻时，梅花和黑桃额外给予1枚金币。与梅花和黑桃相邻时，方块和红桃额外给予1枚金币。"
+  },
+  {
+    "id": "fish_bowl",
+    "name": "鱼缸",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "每次旋转之前向此物品中放入所有金鱼。此物品中每有一条金鱼，给予1枚金币。"
+  },
+  {
+    "id": "flush",
+    "name": "同花",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "梅花、方块、红桃和黑桃属于普通符号，而非非凡符号。每次旋转之前移除所有梅花、方块、红桃和黑桃符号，每移除1个梅花、方块、红桃或黑桃符号，给予12枚金币。"
+  },
+  {
+    "id": "four_leaf_clover",
+    "name": "幸运草",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "very_rare",
+    "rarity_zh": "非常稀有",
+    "text": "每次旋转给予4个金币。"
+  },
+  {
+    "id": "frozen_pizza",
+    "name": "冷冻披萨",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "very_rare",
+    "rarity_zh": "非常稀有",
+    "text": "每旋转2次，额外选择添加一个符号。"
+  },
+  {
+    "id": "fruit_basket",
+    "name": "果篮",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "苹果、香蕉、樱桃、椰子、半个椰子、橙子、桃子、梨、草莓、虚空水果和西瓜给予额外1枚金币。"
+  },
+  {
+    "id": "frying_pan",
+    "name": "煎锅",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "与奶酪、蛋、金蛋、牛奶或煎蛋卷相邻的蛋会被消除。每当蛋被消除，添加煎蛋卷。"
+  },
+  {
+    "id": "golden_carrot",
+    "name": "金胡萝卜",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "very_rare",
+    "rarity_zh": "非常稀有",
+    "text": "你找到非凡、稀有和非常稀有符号的几率乘以5。兔子能给予5倍金币。"
+  },
+  {
+    "id": "goldilocks",
+    "name": "金凤花",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "你可以消除此物品，然后添加3个熊。"
+  },
+  {
+    "id": "grave_robber",
+    "name": "盗墓人",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "大骨灰瓮、坟墓和骨灰瓮有66%的几率被消除。"
+  },
+  {
+    "id": "gray_pepper",
+    "name": "灰辣椒",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "每次花费移除代币时，给予6枚金币。"
+  },
+  {
+    "id": "green_pepper",
+    "name": "绿辣椒",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "如果有至少3个相同且非空的符号，则给予3枚金币。"
+  },
+  {
+    "id": "guillotine",
+    "name": "断头台",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "亿万富翁被消除。"
+  },
+  {
+    "id": "happy_hour",
+    "name": "欢乐时光",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "啤酒、七号化学物、马提尼酒和葡萄酒给予额外1枚金币。"
+  },
+  {
+    "id": "holy_water",
+    "name": "圣水",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "破坏魔法、抽吸魔法、空虚魔法、囤积魔法、迈达斯魔法、沉闷魔法和偷窃魔法没有任何效果，且给予额外1枚金币。"
+  },
+  {
+    "id": "horseshoe",
+    "name": "马蹄铁",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "每次旋转给予2个金币。"
+  },
+  {
+    "id": "jackolantern",
+    "name": "南瓜灯",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "糖果和幼儿给予2倍金币。"
+  },
+  {
+    "id": "kyle_the_kernite",
+    "name": "硼砂凯尔",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "巨矿、矿石和闪亮鹅卵石给予额外1枚金币。"
+  },
+  {
+    "id": "lefty_the_rabbit",
+    "name": "兔子莱福特",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "每旋转10次，添加兔毛。最左列的兔子和兔毛给予2倍金币。"
+  },
+  {
+    "id": "lemon",
+    "name": "柠檬",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "空给予额外1枚金币。"
+  },
+  {
+    "id": "lime_pepper",
+    "name": "青绿辣椒",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "每次花费重置代币时，给予6枚金币。"
+  },
+  {
+    "id": "lint_roller",
+    "name": "粘毛滚筒",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "每次旋转之前移除所有兔毛符号，每移除1个兔毛符号，给予12枚金币。"
+  },
+  {
+    "id": "lockpick",
+    "name": "开锁器",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "带锁箱、巨大宝箱、保险箱和藏宝箱有35%的几率被消除。"
+  },
+  {
+    "id": "looting_glove",
+    "name": "抢劫手套",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "亿万富翁、七号化学物、赌徒、带锁箱、财富扭蛋、巨大宝箱、礼物、保险箱、靶子、沉闷扭蛋、小偷、藏宝箱、虚空生物、虚空水果和虚空之石被消除时，给予1.5倍金币。"
+  },
+  {
+    "id": "lucky_carrot",
+    "name": "幸运胡萝卜",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "你找到非凡、稀有和非常稀有符号的几率乘以3。兔子能给予3倍金币。"
+  },
+  {
+    "id": "lucky_cat",
+    "name": "招财猫",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "每有一只猫咪，找到非凡、稀有和非常稀有符号的几率就乘以1.3。"
+  },
+  {
+    "id": "lucky_dice",
+    "name": "幸运骰子",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "三面骰会永远掷出3点。五面骰会永远掷出5点。"
+  },
+  {
+    "id": "lucky_seven",
+    "name": "幸运七",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "如果你有3个此物品，它们会被消除，然后给予77枚金币。"
+  },
+  {
+    "id": "lunchbox",
+    "name": "饭盒",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "你可以消除此物品，然后选择添加3个符号。可能的符号是苹果、香蕉、啤酒、糖果、奶酪、七号化学物、樱桃、半个椰子、蛋、金蛋、蜂蜜、马提尼酒、牛奶、煎蛋卷、橙子、桃子、梨、草莓、虚空水果、西瓜和葡萄酒。"
+  },
+  {
+    "id": "maxwell_the_bear",
+    "name": "麦克斯韦熊",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "熊能给予1.5倍金币。"
+  },
+  {
+    "id": "mining_pick",
+    "name": "矿镐",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "每当巨矿或矿石被消除时，给予10枚金币。"
+  },
+  {
+    "id": "mobius_strip",
+    "name": "莫比乌斯环",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "very_rare",
+    "rarity_zh": "非常稀有",
+    "text": "被消除时，亿万富翁、七号化学物、赌徒、带锁箱、财富扭蛋、巨大宝箱、礼物、保险箱、靶子、沉闷扭蛋、小偷、藏宝箱、虚空生物、虚空水果和虚空之石有50%的几率被添加。该效果每次旋转时对每个符号仅适用7次。"
+  },
+  {
+    "id": "ninja_and_mouse",
+    "name": "忍者和老鼠",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "当忍者和老鼠相邻时，给予6倍金币。该效果每次旋转时对每个符号仅适用一次。"
+  },
+  {
+    "id": "nori_the_rabbit",
+    "name": "兔子诺里",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "兔子和兔毛给予额外1枚金币。"
+  },
+  {
+    "id": "oil_can",
+    "name": "油罐",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "每5次旋转，你可以重新旋转一列符号一次。重新旋转列中的符号给予2倍金币。"
+  },
+  {
+    "id": "oswald_the_monkey",
+    "name": "猴子奥斯瓦德",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "猴子能给予2倍金币。"
+  },
+  {
+    "id": "piggy_bank",
+    "name": "存钱罐",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "每次旋转都会向此物品中放入2枚金币。你可以消除此物品，然后获得里面金币的2.5倍。"
+  },
+  {
+    "id": "pink_pepper",
+    "name": "粉红辣椒",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "每次跳过时给予2枚金币。"
+  },
+  {
+    "id": "pizza_the_cat",
+    "name": "披萨小猫",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "猫咪给予额外1枚金币。"
+  },
+  {
+    "id": "pool_ball",
+    "name": "台球",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "每次旋转给予1个金币。"
+  },
+  {
+    "id": "popsicle",
+    "name": "冰棒",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "very_rare",
+    "rarity_zh": "非常稀有",
+    "text": "精华生效2次才会被消除。此物品无法禁用。"
+  },
+  {
+    "id": "protractor",
+    "name": "量角器",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "每旋转3次，角落里的符号被视为与所有符号相邻。"
+  },
+  {
+    "id": "purple_pepper",
+    "name": "紫辣椒",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "如果有3个或以上的相同符号相邻且不是空，则给予5枚金币。"
+  },
+  {
+    "id": "quigley_the_wolf",
+    "name": "野狼奎格利",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "狼给予额外1枚金币。狗狗变成狼。"
+  },
+  {
+    "id": "quiver",
+    "name": "箭袋",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "铜箭、金箭和银箭指向2个方向。"
+  },
+  {
+    "id": "rain_cloud",
+    "name": "雨云",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "雨给予额外1枚金币。雨属于普通符号，而非非凡符号。"
+  },
+  {
+    "id": "recycling",
+    "name": "回收利用",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "very_rare",
+    "rarity_zh": "非常稀有",
+    "text": "每次旋转给予1个重置代币。"
+  },
+  {
+    "id": "red_pepper",
+    "name": "红辣椒",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "如果每个符号都不同，则给予5枚金币。该效果忽略空。"
+  },
+  {
+    "id": "red_suits",
+    "name": "红色牌",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "旋转7次后，你可以消除此物品。被消除后添加方块和红桃。"
+  },
+  {
+    "id": "reroll",
+    "name": "重掷",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "如果三面骰掷出的点数少于2点，或五面骰掷出的点数少于3点，则可以重掷一次。"
+  },
+  {
+    "id": "ricky_the_banana",
+    "name": "香蕉瑞奇",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "香蕉和香蕉皮给予额外2枚金币。"
+  },
+  {
+    "id": "ritual_candle",
+    "name": "仪式蜡烛",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "异教徒、破坏魔法、抽吸魔法、空虚魔法、囤积魔法、迈达斯魔法、沉闷魔法、偷窃魔法和女巫给予额外1枚金币。"
+  },
+  {
+    "id": "rusty_gear",
+    "name": "生锈齿轮",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "如果有3个或以上的相同符号相邻且不是空，它们会给予2倍金币。"
+  },
+  {
+    "id": "shattered_mirror",
+    "name": "碎镜子",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "每7次旋转给予24枚金币。旋转后可选择的符号减少1个。"
+  },
+  {
+    "id": "shedding_season",
+    "name": "脱毛季节",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "兔子有15%的几率添加兔毛。"
+  },
+  {
+    "id": "shrine",
+    "name": "神龛",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "被消除后，地质学家、酒保、熊、驯兽师、蜜蜂、赏金猎人、纸牌高手、猫咪、厨师、小鸡、大鸡、喜剧演员、牛、螃蟹、乌鸦、异教徒、贵妇、潜水员、狗狗、鸽子、矮人、怪异生物、农夫、赌徒、扎罗夫将军、金鱼、石巨人、鹅、流氓、水母、小丑、迈达斯国王、喜鹊、矿工、猴子、老鼠、水果女士、忍者、猫头鹰、牡蛎、海盗、河豚、兔子、罗宾汉、沙钱、树懒、蜗牛、小偷、幼儿、龟、虚空生物、女巫和狼添加幽灵。"
+  },
+  {
+    "id": "sunglasses",
+    "name": "太阳镜",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "如果你拥有3个或更多移除代币，则每次旋转给予1个移除代币。"
+  },
+  {
+    "id": "swapping_device",
+    "name": "交换装置",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "每次旋转你可以交换2个符号的位置一次。"
+  },
+  {
+    "id": "swear_jar",
+    "name": "脏话罐",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "每次在旋转后获得36枚以下金币时，向此物品中放入1枚金币。你可以消除此物品，然后获得里面金币的3倍。"
+  },
+  {
+    "id": "symbol_bomb_big",
+    "name": "大符号炸弹",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "你可以消除此物品，然后选择添加4个符号。"
+  },
+  {
+    "id": "symbol_bomb_quantum",
+    "name": "量子符号炸弹",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "你可以消除此物品，然后选择添加之前旋转后见过但未添加的9个符号。可能的符号是本局曾出现但未添加的符号。"
+  },
+  {
+    "id": "symbol_bomb_small",
+    "name": "小符号炸弹",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "你可以消除此物品，然后选择添加2个符号。"
+  },
+  {
+    "id": "symbol_bomb_very_big",
+    "name": "超大符号炸弹",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "你可以消除此物品，然后选择添加8个符号。"
+  },
+  {
+    "id": "tax_evasion",
+    "name": "逃税",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "如果一个符号需要金币，则少需要1枚金币。"
+  },
+  {
+    "id": "telescope",
+    "name": "望远镜",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "very_rare",
+    "rarity_zh": "非常稀有",
+    "text": "每旋转3次，所有符号都被视为相邻。"
+  },
+  {
+    "id": "time_machine",
+    "name": "时光机",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "煤炭变形所需的旋转次数减少5次。消除石巨人和俄罗斯套娃所需的旋转次数减少2次。消除冰冻化石和礼物所需的旋转次数减少5次。"
+  },
+  {
+    "id": "treasure_map",
+    "name": "藏宝图",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "旋转20次后，你可以消除此物品。被消除后添加钥匙和藏宝箱。"
+  },
+  {
+    "id": "triple_coins",
+    "name": "三倍金币",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "硬币能给予3倍金币。"
+  },
+  {
+    "id": "turtle_and_rabbit",
+    "name": "龟兔赛跑",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "如果兔子在最左列，龟在最右列，则此物品被消除并给予77枚金币。"
+  },
+  {
+    "id": "undertaker",
+    "name": "殡仪员",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "幽灵无法被消除。"
+  },
+  {
+    "id": "void_party",
+    "name": "虚空派对",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "虚空生物、虚空水果和虚空之石属于普通符号，而非非凡符号。被消除时，虚空生物、虚空水果和虚空之石有50%的几率被添加。该效果每次旋转时对每个符号仅适用7次。"
+  },
+  {
+    "id": "void_portal",
+    "name": "虚空传送门",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "rare",
+    "rarity_zh": "稀有",
+    "text": "每有8个已被消除的符号，旋转时给予1枚金币。"
+  },
+  {
+    "id": "wanted_poster",
+    "name": "通缉告示",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "小偷能给予3.5倍金币。"
+  },
+  {
+    "id": "watering_can",
+    "name": "浇水壶",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "种子有额外100%的几率生长。种子给予额外12枚金币。"
+  },
+  {
+    "id": "white_pepper",
+    "name": "白辣椒",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "每当在旋转后获得的金币是3的倍数时，给予3枚金币。"
+  },
+  {
+    "id": "x_ray_machine",
+    "name": "X光机",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "巨矿和矿石只会添加稀有或更好的符号。"
+  },
+  {
+    "id": "yellow_pepper",
+    "name": "黄辣椒",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "common",
+    "rarity_zh": "普通",
+    "text": "如果符号都不是空，则给予2枚金币。"
+  },
+  {
+    "id": "zaroffs_contract",
+    "name": "扎罗夫的合约",
+    "type": "item",
+    "type_zh": "物品",
+    "rarity": "uncommon",
+    "rarity_zh": "非凡",
+    "text": "赏金猎人消除相邻的地质学家、酒保、驯兽师、亿万富翁、赏金猎人、纸牌高手、厨师、喜剧演员、异教徒、贵妇、潜水员、矮人、农夫、赌徒、扎罗夫将军、流氓、小丑、迈达斯国王、矿工、水果女士、忍者、海盗、罗宾汉、小偷、幼儿和女巫。每消除一个符号，赏金猎人给予25枚金币。"
+  },
+  {
+    "id": "adoption_papers_essence",
+    "name": "领养文件精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在添加7个熊、蜜蜂、猫咪、小鸡、大鸡、牛、螃蟹、乌鸦、狗狗、鸽子、怪异生物、金鱼、鹅、水母、喜鹊、猴子、老鼠、猫头鹰、牡蛎、河豚、兔子、沙钱、树懒、蜗牛、龟、虚空生物和狼后，消除自身。被消除后给予77枚金币。"
+  },
+  {
+    "id": "ancient_lizard_blade_essence",
+    "name": "古老蜥蜴之刃精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "给予40枚金币，并在旋转后被消除。储物间中每拥有一种数量大于等于2的符号，少给予8枚金币。最少给予0枚金币。该效果忽略空。"
+  },
+  {
+    "id": "anthropology_degree_essence",
+    "name": "人类学学位精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果至少有9个地质学家、酒保、驯兽师、亿万富翁、赏金猎人、纸牌高手、厨师、喜剧演员、异教徒、贵妇、潜水员、矮人、农夫、赌徒、扎罗夫将军、流氓、小丑、迈达斯国王、矿工、水果女士、忍者、海盗、罗宾汉、小偷、幼儿和女巫，则消除自身。被消除后，此游戏中的地质学家、酒保、驯兽师、亿万富翁、赏金猎人、纸牌高手、厨师、喜剧演员、异教徒、贵妇、潜水员、矮人、农夫、赌徒、扎罗夫将军、流氓、小丑、迈达斯国王、矿工、水果女士、忍者、海盗、罗宾汉、小偷、幼儿和女巫给予1.5倍金币。"
+  },
+  {
+    "id": "bag_of_holding_essence",
+    "name": "方便面精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "当你跳过物品时，消除自身。被消除后，你可以选择2个物品进行添加。"
+  },
+  {
+    "id": "barrel_o_dwarves_essence",
+    "name": "一桶矮人精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在7个矮人被移除后，消除自身。每次旋转之前移除所有矮人符号，每移除1个矮人符号，给予17枚金币。"
+  },
+  {
+    "id": "birdhouse_essence",
+    "name": "鸟舍精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果3个或更多小鸡、大鸡、乌鸦、鸽子、鹅、喜鹊和猫头鹰相邻，则消除自身。被消除后，此游戏中的小鸡、大鸡、乌鸦、鸽子、鹅、喜鹊和猫头鹰给予额外2枚金币。"
+  },
+  {
+    "id": "black_cat_essence",
+    "name": "黑猫精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果至少有13个猫咪，则消除自身。被消除后，此游戏中的猫咪给予13倍金币。"
+  },
+  {
+    "id": "black_pepper_essence",
+    "name": "黑辣椒精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "每消除一个符号，给予10枚金币。在之后消除自身。"
+  },
+  {
+    "id": "blue_pepper_essence",
+    "name": "蓝辣椒精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果有至少3个空，则给予30枚金币。在之后消除自身。"
+  },
+  {
+    "id": "blue_suits_essence",
+    "name": "黑色牌精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果至少有4个梅花和黑桃，则消除自身。被消除后，此游戏中的梅花和黑桃给予额外1枚金币。"
+  },
+  {
+    "id": "booster_pack_essence",
+    "name": "补充包精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在12次旋转后消除自身。被消除后，选择要添加的2个非凡符号和1个非常稀有符号。"
+  },
+  {
+    "id": "bowling_ball_essence",
+    "name": "保龄球精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在20次旋转后消除自身。每次旋转给予3个金币。"
+  },
+  {
+    "id": "brown_pepper_essence",
+    "name": "棕辣椒精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "每添加一个符号，给予10枚金币。在之后消除自身。"
+  },
+  {
+    "id": "capsule_machine_essence",
+    "name": "扭蛋机精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在增益扭蛋、精华扭蛋、诈骗扭蛋、物品扭蛋、财富扭蛋、幸运扭蛋、移除扭蛋、重掷扭蛋、沉闷扭蛋或时间扭蛋被消除后，消除自身。增益扭蛋、精华扭蛋、诈骗扭蛋、物品扭蛋、财富扭蛋、幸运扭蛋、移除扭蛋、重掷扭蛋、沉闷扭蛋和时间扭蛋的效果发生3次。"
+  },
+  {
+    "id": "cardboard_box_essence",
+    "name": "纸板箱精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在12次旋转后消除自身。被消除后给予3枚移除代币。"
+  },
+  {
+    "id": "checkered_flag_essence",
+    "name": "格子旗精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "喜鹊、猫头鹰、罗宾汉、树懒、蜗牛和龟给予7次金币后，消除自身。喜鹊、猫头鹰、罗宾汉、树懒、蜗牛和龟进行0次旋转可给予额外的金币。"
+  },
+  {
+    "id": "chicken_coop_essence",
+    "name": "鸡舍精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "蛋在同一旋转中转化为小鸡并生长成大鸡后，消除自身。被消除后，此游戏中的小鸡、大鸡、蛋和金蛋给予额外4枚金币。"
+  },
+  {
+    "id": "chili_powder_essence",
+    "name": "辣椒粉精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在你支付租金后，消除自身。被消除后，你选择添加1个黑辣椒、蓝辣椒、棕辣椒、青辣椒、灰辣椒、绿辣椒、青绿辣椒、粉红辣椒、紫辣椒、红辣椒、白辣椒或黄辣椒。"
+  },
+  {
+    "id": "cleaning_rag_essence",
+    "name": "抹布精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果至少有5个紫水晶、钻石、绿宝石、珍珠、红宝石、蓝宝石、闪亮鹅卵石和虚空之石，则消除自身。被消除后，此游戏中的紫水晶、钻石、绿宝石、珍珠、红宝石、蓝宝石、闪亮鹅卵石和虚空之石给予2倍金币。"
+  },
+  {
+    "id": "clear_sky_essence",
+    "name": "晴空精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果太阳和月亮相邻，则消除自身。被消除后，太阳和月亮给予2倍并影响不相邻的符号。"
+  },
+  {
+    "id": "coffee_essence",
+    "name": "咖啡精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在你支付租金前，消除自身。被消除后，你额外旋转2次。"
+  },
+  {
+    "id": "coin_on_a_string_essence",
+    "name": "系绳硬币精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在10个硬币被移除后，消除自身。每次旋转之前移除所有硬币符号，每移除1个硬币符号，给予10枚金币。"
+  },
+  {
+    "id": "comfy_pillow_essence",
+    "name": "舒适枕头精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果在租金到期之前还剩下2次旋转，则可以消除自身并跳过2次旋转，使支付租金后可选的物品中至少有1个非常稀有的物品。"
+  },
+  {
+    "id": "compost_heap_essence",
+    "name": "堆肥堆精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "每当3个符号在同一旋转中被消除时，添加2个西瓜。在之后消除自身。"
+  },
+  {
+    "id": "conveyor_belt_essence",
+    "name": "传送带精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "从酒保、蜂巢、大鸡、牛、鹅、迈达斯魔法、牡蛎、兔子或坟墓添加5个符号后，消除自身。被消除后，此游戏中酒保、蜂巢、大鸡、牛、鹅、迈达斯魔法、牡蛎、兔子和坟墓添加符号的几率变为2倍。"
+  },
+  {
+    "id": "copycat_essence",
+    "name": "抄袭猫精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果5个或更多猫咪相邻，则消除自身。被消除后，此游戏中的猫咪是通配符，并给予1.5倍金币。"
+  },
+  {
+    "id": "credit_card_essence",
+    "name": "信用卡精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在你旋转后，消除自身。旋转后可选择的符号增加27个。"
+  },
+  {
+    "id": "cursed_katana_essence",
+    "name": "被诅咒的武士刀精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果至少有2个忍者，则消除自身。被消除后，此游戏中的忍者给予额外3枚金币。"
+  },
+  {
+    "id": "cyan_pepper_essence",
+    "name": "青辣椒精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果没有3个或以上的相同符号，则给予30枚金币。该效果忽略空。在之后消除自身。"
+  },
+  {
+    "id": "dark_humor_essence",
+    "name": "黑色幽默精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果喜剧演员被消除，则消除自身。当与香蕉皮相邻时，喜剧演员被消除。被消除后，此游戏中的香蕉、香蕉皮、狗狗、小丑、猴子和幼儿给予额外2枚金币。"
+  },
+  {
+    "id": "devils_deal_essence",
+    "name": "恶魔的交易精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果你付不起租金，则消除自身。被消除后给予33枚金币。"
+  },
+  {
+    "id": "dishwasher_essence",
+    "name": "洗碗机精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在18次旋转后消除自身。被消除后给予3枚精华代币。"
+  },
+  {
+    "id": "dwarven_anvil_essence",
+    "name": "矮人砧精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果啤酒、巨矿、矿石或葡萄酒被矮人消除，则消除自身。被消除后，此游戏中的矮人给予1.5倍金币。"
+  },
+  {
+    "id": "egg_carton_essence",
+    "name": "蛋盒精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在12个蛋被移除后，消除自身。每次旋转之前移除所有蛋符号，每移除1个蛋符号，给予12枚金币。"
+  },
+  {
+    "id": "fertilizer_essence",
+    "name": "肥料精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在种子种子生长时，消除自身。被消除后，此旋转中保证种子会生长成非常稀有的符号。"
+  },
+  {
+    "id": "fifth_ace_essence",
+    "name": "第5张A精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果至少有4个梅花、方块、红桃和黑桃，则消除自身。被消除后，此游戏中的梅花、方块、红桃和黑桃给予额外1枚金币。"
+  },
+  {
+    "id": "fish_bowl_essence",
+    "name": "鱼缸精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在10个金鱼被移除后，消除自身。每次旋转之前移除所有金鱼符号，每移除1个金鱼符号，给予10枚金币。"
+  },
+  {
+    "id": "flush_essence",
+    "name": "同花精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在5个梅花、方块、红桃和黑桃被移除后，消除自身。每次旋转之前移除所有梅花、方块、红桃和黑桃符号，每移除1个梅花、方块、红桃或黑桃符号，给予20枚金币。"
+  },
+  {
+    "id": "four_leaf_clover_essence",
+    "name": "幸运草精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在15次旋转后消除自身。每次旋转给予4个金币。"
+  },
+  {
+    "id": "frozen_pizza_essence",
+    "name": "冷冻披萨精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在旋转并添加5个符号后，消除自身。每次旋转后，额外选择添加一个符号。此物品无法禁用。"
+  },
+  {
+    "id": "fruit_basket_essence",
+    "name": "果篮精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果至少有5个苹果、香蕉、樱桃、椰子、半个椰子、橙子、桃子、梨、草莓、虚空水果和西瓜，则消除自身。被消除后，此游戏中的苹果、香蕉、樱桃、椰子、半个椰子、橙子、桃子、梨、草莓、虚空水果和西瓜给予2倍金币。"
+  },
+  {
+    "id": "frying_pan_essence",
+    "name": "煎锅精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "当与奶酪、蛋、金蛋、牛奶或煎蛋卷相邻时，蛋会被消除。每当蛋被消除，添加煎蛋卷并消除自身。被消除后，此游戏中的煎蛋卷给予3倍金币。"
+  },
+  {
+    "id": "golden_carrot_essence",
+    "name": "金胡萝卜精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在7次旋转后消除自身。被消除后，至少1个要添加的符号会在此次旋转后变成非常稀有的符号。"
+  },
+  {
+    "id": "goldilocks_essence",
+    "name": "金凤花精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果至少有3个熊，则消除自身。被消除后，此游戏中的熊给予额外1枚金币。"
+  },
+  {
+    "id": "grave_robber_essence",
+    "name": "盗墓人精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果大骨灰瓮、坟墓或骨灰瓮被消除，则消除自身。被消除后，此游戏中的大骨灰瓮、坟墓和骨灰瓮可添加2倍数量的幽灵。"
+  },
+  {
+    "id": "gray_pepper_essence",
+    "name": "灰辣椒精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "每次花费移除代币时给予30枚金币。在之后消除自身。"
+  },
+  {
+    "id": "green_pepper_essence",
+    "name": "绿辣椒精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果有至少3个相同且非空的符号，则给予30枚金币。在之后消除自身。"
+  },
+  {
+    "id": "guillotine_essence",
+    "name": "触发断头台精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果你有1000000000฿枚或更多金币，则你会被消除。"
+  },
+  {
+    "id": "happy_hour_essence",
+    "name": "欢乐时光精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在3个啤酒、七号化学物、马提尼酒和葡萄酒被消除后，消除自身。被消除后，此游戏中的啤酒、七号化学物、马提尼酒和葡萄酒给予1.5倍金币。"
+  },
+  {
+    "id": "holy_water_essence",
+    "name": "圣水精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果至少有6个破坏魔法、抽吸魔法、空虚魔法、囤积魔法、迈达斯魔法、沉闷魔法和偷窃魔法，则消除自身。被消除后，此游戏中的破坏魔法、抽吸魔法、空虚魔法、囤积魔法、迈达斯魔法、沉闷魔法和偷窃魔法没有任何效果，且给予2倍金币。"
+  },
+  {
+    "id": "horseshoe_essence",
+    "name": "马蹄铁精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在30次旋转后消除自身。每次旋转给予2个金币。"
+  },
+  {
+    "id": "jackolantern_essence",
+    "name": "南瓜灯精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果糖果被幼儿消除，则消除自身。被消除后，此游戏中的糖果和幼儿给予1.5倍金币。"
+  },
+  {
+    "id": "kyle_the_kernite_essence",
+    "name": "硼砂凯尔精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果至少有3个巨矿、矿石和闪亮鹅卵石，则消除自身。被消除后，此游戏中的巨矿、矿石和闪亮鹅卵石给予额外2枚金币。"
+  },
+  {
+    "id": "lefty_the_rabbit_essence",
+    "name": "兔子莱福特精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果至少有6个兔子和兔毛，则消除自身。最左列的兔子和兔毛给予3倍金币。"
+  },
+  {
+    "id": "lemon_essence",
+    "name": "柠檬精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果至少有4个空，则消除自身。空给予额外4枚金币。"
+  },
+  {
+    "id": "lime_pepper_essence",
+    "name": "青绿辣椒精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "每次花费重置代币时给予30枚金币。在之后消除自身。"
+  },
+  {
+    "id": "lint_roller_essence",
+    "name": "粘毛滚筒精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在6个兔毛被移除后，消除自身。每次旋转之前移除所有兔毛符号，每移除1个兔毛符号，给予20枚金币。"
+  },
+  {
+    "id": "lockpick_essence",
+    "name": "开锁器精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在3个带锁箱、巨大宝箱、保险箱和藏宝箱被消除后，消除自身。带锁箱、巨大宝箱、保险箱和藏宝箱有100%的几率被消除。"
+  },
+  {
+    "id": "looting_glove_essence",
+    "name": "抢劫手套精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在亿万富翁、七号化学物、赌徒、带锁箱、财富扭蛋、巨大宝箱、礼物、保险箱、靶子、沉闷扭蛋、小偷、藏宝箱、虚空生物、虚空水果或虚空之石被消除后，消除自身。亿万富翁、七号化学物、赌徒、带锁箱、财富扭蛋、巨大宝箱、礼物、保险箱、靶子、沉闷扭蛋、小偷、藏宝箱、虚空生物、虚空水果和虚空之石被消除时，给予3.5倍金币。"
+  },
+  {
+    "id": "lucky_carrot_essence",
+    "name": "幸运胡萝卜精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在15次旋转后消除自身。被消除后，至少1个要添加的符号会在此次旋转后变成非常稀有的符号。"
+  },
+  {
+    "id": "lucky_cat_essence",
+    "name": "招财猫精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果至少有3个猫咪，则消除自身。被消除后，找到非凡、稀有和非常稀有符号的几率乘以2.5。"
+  },
+  {
+    "id": "lucky_dice_essence",
+    "name": "幸运骰子精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在三面骰和五面骰给予10次金币后，消除自身。三面骰和五面骰给予额外1枚金币。三面骰会永远掷出3点。五面骰会永远掷出5点。"
+  },
+  {
+    "id": "lucky_seven_essence",
+    "name": "幸运七精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在7次旋转后消除自身。被消除后，此游戏中七号化学物为普通而非非凡。"
+  },
+  {
+    "id": "lunchbox_essence",
+    "name": "饭盒精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在添加7个苹果、香蕉、啤酒、糖果、奶酪、七号化学物、樱桃、半个椰子、蛋、金蛋、蜂蜜、马提尼酒、牛奶、煎蛋卷、橙子、桃子、梨、草莓、虚空水果、西瓜和葡萄酒后，消除自身。被消除后给予33枚金币。"
+  },
+  {
+    "id": "maxwell_the_bear_essence",
+    "name": "麦克斯韦熊精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果蜂蜜被熊消除，则消除自身。被消除后，此游戏中的熊给予1.5倍金币。"
+  },
+  {
+    "id": "mining_pick_essence",
+    "name": "矿镐精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在5个巨矿和矿石被消除后，消除自身。被消除后给予50枚金币。"
+  },
+  {
+    "id": "mobius_strip_essence",
+    "name": "莫比乌斯环精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在7个亿万富翁、七号化学物、赌徒、带锁箱、财富扭蛋、巨大宝箱、礼物、保险箱、靶子、沉闷扭蛋、小偷、藏宝箱、虚空生物、虚空水果和虚空之石被消除后，消除自身。被消除后，此游戏中的亿万富翁、七号化学物、赌徒、带锁箱、财富扭蛋、巨大宝箱、礼物、保险箱、靶子、沉闷扭蛋、小偷、藏宝箱、虚空生物、虚空水果和虚空之石给予1.5倍金币。"
+  },
+  {
+    "id": "ninja_and_mouse_essence",
+    "name": "忍者和老鼠精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果忍者和老鼠相邻，则消除自身。被消除后，此游戏中的忍者和老鼠给予额外2枚金币。"
+  },
+  {
+    "id": "nori_the_rabbit_essence",
+    "name": "兔子诺里精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果至少有4个兔子和兔毛，则消除自身。被消除后，此游戏中的兔子和兔毛给予1.5倍金币。"
+  },
+  {
+    "id": "oil_can_essence",
+    "name": "油罐精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在7次重新旋转后，消除自身。每次旋转你可以重新旋转一列符号一次。重新旋转列中的符号给予2倍金币。"
+  },
+  {
+    "id": "oswald_the_monkey_essence",
+    "name": "猴子奥斯瓦德精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果香蕉、椰子或半个椰子被猴子消除，则消除自身。被消除后，此游戏中的猴子给予2倍金币。"
+  },
+  {
+    "id": "piggy_bank_essence",
+    "name": "存钱罐精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在25次旋转后消除自身。每次旋转都会向此物品中放入2枚金币。被消除后给予152枚金币。"
+  },
+  {
+    "id": "pink_pepper_essence",
+    "name": "粉红辣椒精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "每次跳过时给予20枚金币。在之后消除自身。"
+  },
+  {
+    "id": "pizza_the_cat_essence",
+    "name": "披萨小猫精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果牛奶被猫咪消除，则消除自身。被消除后，此游戏中的猫咪给予1.5倍金币。"
+  },
+  {
+    "id": "pool_ball_essence",
+    "name": "台球精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在60次旋转后消除自身。每次旋转给予1个金币。"
+  },
+  {
+    "id": "popsicle_essence",
+    "name": "冰棒精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在其他精华被消除后消除自身。其他精华生效2次才会被消除。此物品无法禁用。"
+  },
+  {
+    "id": "protractor_essence",
+    "name": "量角器精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在4次旋转后消除自身。角落里的符号被视为与所有符号相邻。"
+  },
+  {
+    "id": "purple_pepper_essence",
+    "name": "紫辣椒精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果有3个或以上的相同符号相邻且不是空，则给予50枚金币。在之后消除自身。"
+  },
+  {
+    "id": "quigley_the_wolf_essence",
+    "name": "野狼奎格利精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果3个或更多狗狗和狼相邻，则消除自身。被消除后，此游戏中的狗狗转化为狼，并且狼给予额外2枚金币。"
+  },
+  {
+    "id": "quiver_essence",
+    "name": "箭袋精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "每当铜箭、金箭或银箭指向0个符号时，消除自身。铜箭、金箭和银箭指向2个方向。"
+  },
+  {
+    "id": "rain_cloud_essence",
+    "name": "雨云精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果雨和花相邻，则消除自身。被消除后，此游戏中的雨和花给予额外1枚金币。"
+  },
+  {
+    "id": "recycling_essence",
+    "name": "回收利用精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在你旋转后，消除自身。被消除后给予5枚重置代币。"
+  },
+  {
+    "id": "red_pepper_essence",
+    "name": "红辣椒精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果每个符号都不同，则给予50枚金币。该效果忽略空。在之后消除自身。"
+  },
+  {
+    "id": "red_suits_essence",
+    "name": "红色牌精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果至少有4个方块和红桃，则消除自身。被消除后，此游戏中的方块和红桃给予额外1枚金币。"
+  },
+  {
+    "id": "reroll_essence",
+    "name": "重掷精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在三面骰和五面骰重掷10次后，消除自身。如果三面骰掷出的点数少于2点，或五面骰掷出的点数少于3点，则可以重掷一次。三面骰始终重新投掷为3点。五面骰始终重新投掷为5点。"
+  },
+  {
+    "id": "ricky_the_banana_essence",
+    "name": "香蕉瑞奇精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果至少有3个香蕉和香蕉皮，则消除自身。被消除后，此游戏中的香蕉和香蕉皮给予额外2枚金币。"
+  },
+  {
+    "id": "ritual_candle_essence",
+    "name": "仪式蜡烛精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果至少有6个异教徒、破坏魔法、抽吸魔法、空虚魔法、囤积魔法、迈达斯魔法、沉闷魔法、偷窃魔法和女巫，则消除自身。被消除后，此游戏中的异教徒、破坏魔法、抽吸魔法、空虚魔法、囤积魔法、迈达斯魔法、沉闷魔法、偷窃魔法和女巫给予2倍金币。"
+  },
+  {
+    "id": "rusty_gear_essence",
+    "name": "生锈齿轮精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果有3个或以上的相同符号相邻且不是空，它们在此游戏中给予额外1.5倍金币。在之后消除自身。"
+  },
+  {
+    "id": "shattered_mirror_essence",
+    "name": "碎镜子精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在旋转并添加7个符号后，消除自身。旋转后可选择的符号减少1个。被消除后给予77枚金币。"
+  },
+  {
+    "id": "shedding_season_essence",
+    "name": "脱毛季节精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "兔子有100%的几率添加5个兔毛。在之后消除自身。"
+  },
+  {
+    "id": "shrine_essence",
+    "name": "神龛精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在4个幽灵被消除后，消除自身。被消除后，幽灵添加地质学家、酒保、熊、驯兽师、蜜蜂、赏金猎人、纸牌高手、猫咪、厨师、小鸡、大鸡、喜剧演员、牛、螃蟹、乌鸦、异教徒、贵妇、潜水员、狗狗、鸽子、矮人、怪异生物、农夫、赌徒、扎罗夫将军、金鱼、石巨人、鹅、流氓、水母、小丑、迈达斯国王、喜鹊、矿工、猴子、老鼠、水果女士、忍者、猫头鹰、牡蛎、海盗、河豚、兔子、罗宾汉、沙钱、树懒、蜗牛、小偷、幼儿、龟、虚空生物、女巫或狼。"
+  },
+  {
+    "id": "sunglasses_essence",
+    "name": "太阳镜精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果你拥有3个或更多移除代币，则给予5个移除代币。在之后消除自身。"
+  },
+  {
+    "id": "swapping_device_essence",
+    "name": "交换装置精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在7次交换后，消除自身。每次旋转你可以交换2个符号的位置一次。这样交换的符号给予2倍金币。"
+  },
+  {
+    "id": "swear_jar_essence",
+    "name": "脏话罐精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果你旋转并获得25枚或更少金币，则消除自身。被消除后给予50枚金币。"
+  },
+  {
+    "id": "symbol_bomb_big_essence",
+    "name": "大符号炸弹精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在旋转并添加4个符号后，消除自身。被消除后给予2枚移除代币。"
+  },
+  {
+    "id": "symbol_bomb_quantum_essence",
+    "name": "量子符号炸弹精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在旋转并添加3个符号后，消除自身。被消除后添加1个量子符号炸弹物品。"
+  },
+  {
+    "id": "symbol_bomb_small_essence",
+    "name": "小符号炸弹精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在旋转并添加2个符号后，消除自身。被消除后给予1枚移除代币。"
+  },
+  {
+    "id": "symbol_bomb_very_big_essence",
+    "name": "超大符号炸弹精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在旋转并添加8个符号后，消除自身。被消除后给予4枚移除代币。"
+  },
+  {
+    "id": "tax_evasion_essence",
+    "name": "逃税精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果一个符号需要金币，则少需要25枚金币。在之后消除自身。"
+  },
+  {
+    "id": "telescope_essence",
+    "name": "望远镜精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在3次旋转后消除自身。所有符号被视为相邻。"
+  },
+  {
+    "id": "time_machine_essence",
+    "name": "时光机精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在2个煤炭、冰冻化石、石巨人、俄罗斯套娃和礼物被消除或转化后，消除自身。煤炭、冰冻化石、石巨人、俄罗斯套娃和礼物进行0次旋转可被消除或转化。"
+  },
+  {
+    "id": "treasure_map_essence",
+    "name": "藏宝图精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在33次旋转后消除自身。被消除后添加钥匙和巨大宝箱。"
+  },
+  {
+    "id": "triple_coins_essence",
+    "name": "三倍金币精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果至少有3个硬币，则消除自身。被消除后，此游戏中的硬币给予额外2枚金币。"
+  },
+  {
+    "id": "turtle_and_rabbit_essence",
+    "name": "龟兔赛跑精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果兔子和龟相邻，则消除自身。被消除后，此游戏中的兔子和龟给予额外2枚金币。"
+  },
+  {
+    "id": "undertaker_essence",
+    "name": "殡仪员精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果至少有4个幽灵，则消除自身。被消除后，此游戏中的幽灵给予额外2枚金币。"
+  },
+  {
+    "id": "void_party_essence",
+    "name": "虚空派对精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在5个虚空生物、虚空水果和虚空之石被消除后，消除自身。被消除后，此游戏中的虚空生物、虚空水果和虚空之石给予1.5倍金币。"
+  },
+  {
+    "id": "void_portal_essence",
+    "name": "虚空传送门精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果符号被消除，消除自身。被消除后，每个已被消除的符号给予1枚金币。"
+  },
+  {
+    "id": "wanted_poster_essence",
+    "name": "通缉告示精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果小偷被赏金猎人消除，则消除自身。被消除后，此游戏中的赏金猎人给予2.5倍金币。"
+  },
+  {
+    "id": "watering_can_essence",
+    "name": "浇水壶精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "当种子种子生长时，消除自身。种子给予额外20枚金币。"
+  },
+  {
+    "id": "white_pepper_essence",
+    "name": "白辣椒精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "每当在旋转后获得的金币是3的倍数时，给予30枚金币。在之后消除自身。"
+  },
+  {
+    "id": "x_ray_machine_essence",
+    "name": "X光机精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "在矿石或巨矿被消除前，消除自身。被消除后，此旋转中，保证矿石和巨矿会添加非常稀有符号。"
+  },
+  {
+    "id": "yellow_pepper_essence",
+    "name": "黄辣椒精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果符号都不是空，则给予20枚金币。在之后消除自身。"
+  },
+  {
+    "id": "zaroffs_contract_essence",
+    "name": "扎罗夫的合约精华",
+    "type": "essence",
+    "type_zh": "精华",
+    "rarity": "essence",
+    "rarity_zh": "精华",
+    "text": "如果地质学家、酒保、驯兽师、亿万富翁、赏金猎人、纸牌高手、厨师、喜剧演员、异教徒、贵妇、潜水员、矮人、农夫、赌徒、扎罗夫将军、流氓、小丑、迈达斯国王、矿工、水果女士、忍者、海盗、罗宾汉、小偷、幼儿或女巫被赏金猎人或扎罗夫将军消除，则消除自身。被消除后给予50枚金币。"
+  }
+]

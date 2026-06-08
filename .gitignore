@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# NoneBot runtime/cache/logs
+NoneBot2/.cache/
+NoneBot2/logs/
+NoneBot2/nonebot.log
+NoneBot2/nb-cli.log
+
+# NapCat runtime data
+NapCat/data/QQ/
+NapCat/data/config/
+NapCat/data/plugins/
+NapCat/data/logs/
+
+# Docker compose local env
+NapCat/.env
+
+# Large/extracted data sources
+NoneBot2/plugins/guess_word/data_source/
+NoneBot2/plugins/guess_word/cards_raw.json
+NoneBot2/plugins/guess_word/cards_expanded.json
+NoneBot2/plugins/guess_word/zh_dump.tsv
+
+# Local plugin config with real group ids
+NoneBot2/plugins/guess_word/config.json
