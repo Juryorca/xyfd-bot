@@ -5,7 +5,7 @@ from nonebot import on_message
 from nonebot.adapters.onebot.v11 import GroupMessageEvent, MessageSegment, Message
 
 BASE_DIR = Path(__file__).parent
-IMAGE_DIR = BASE_DIR / "image"
+IMAGE_DIR = BASE_DIR / "images"
 
 # 触发词列表
 TRIGGERS = ["菜农", "农猪", "农农"]
