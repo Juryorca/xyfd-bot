@@ -11,6 +11,6 @@ async def _(event: GroupMessageEvent):
     if "宇宙冷漠" not in text:
         return
 
-    await matcher.finish(
+    await yzlm.finish(
         MessageSegment.record("file:///app/napcat/musics/宇宙冷漠.mp3")
     )
