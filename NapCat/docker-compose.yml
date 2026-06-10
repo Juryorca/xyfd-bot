@@ -19,6 +19,7 @@ services:
       - ./data/QQ:/app/.config/QQ
       - ./data/config:/app/napcat/config
       - ./data/plugins:/app/napcat/plugins
+      - ./public/musics:/app/napcat/musics
 
     extra_hosts:
       - "host.docker.internal:host-gateway"
