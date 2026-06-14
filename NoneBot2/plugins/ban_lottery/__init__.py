@@ -54,7 +54,7 @@ async def _(bot: Bot, event: GroupMessageEvent):
                 f"禁言抽奖开始！\n"
                 f"[CQ:at,qq={user_id}] 已加入奖池。\n"
                 f"其他人发送“禁言抽奖”加入。\n"
-                f"30 秒后随机抽一位幸运群友。"
+                f"1 分钟后随机抽一位幸运群友。"
             )
         )
     else:
@@ -73,7 +73,7 @@ async def _(bot: Bot, event: GroupMessageEvent):
 
 
 async def finish_lottery(bot: Bot, group_id: int):
-    await asyncio.sleep(30)
+    await asyncio.sleep(60)
 
     players = list(lottery_sessions.pop(group_id, set()))
     lottery_tasks.pop(group_id, None)
